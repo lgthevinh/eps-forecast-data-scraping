@@ -3,10 +3,9 @@
 ## Target
 - Từ dữ liệu báo cáo cổ phiếu của 1 công ty (Sheet HNX, HOSE) từ nhiều nhà phân tích (Ngân hàng, CTCK), thu thập những thông tin về EPS (Earnings Per Share) dự báo, EPS thực, theo quý và năm
 
-- VD:
-| name | sec_code | stock_exchange | eps_actual | eps_forecast | analyst | report_date | stock_price_before | quarter | year |
-|------|-------|-----|------------|----------|---------------|--------------|---------------------------------|-----|-----|
-| Vinamilk    | VNM   | HOSE| 3.5        | 3.2      | FPTS          | 2024-07-25   | 65.6                            | Q2  | 2024|
+| name      | sec_code | stock_exchange | eps_actual | eps_forecast | analyst | report_date | stock_price_before | quarter | year |
+|-----------|----------|---------------|------------|--------------|---------|-------------|--------------------|---------|------|
+| Vinamilk  | VNM      | HOSE          | 3.5        | 3.2          | FPTS    | 2024-07-25  | 65.6               | Q2      | 2024 |
 
 ## Sources
 Source type | Columns
