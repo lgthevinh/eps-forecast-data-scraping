@@ -1,0 +1,90 @@
+﻿STT,sec_code,name,stock_exchange
+1,AAS,Công ty cổ phần Chứng khoán SmartInvest,UpCom
+2,ABW,CTCP Chứng khoán An Bình,UpCom
+3,ACBS,Công ty TNHH Chứng khoán ACB,OTC
+4,AGR,Công ty Cổ phần Chứng khoán Agribank,HSX
+5,APG,Công ty Cổ phần Chứng khoán APG,HSX
+6,APS,Công ty Cổ phần Chứng khoán Châu Á – Thái Bình Dương,HNX
+7,APSC,Công ty Cổ phần Chứng khoán ALPHA,OTC
+8,ART,Công ty Cổ phần Chứng khoán BOS,UpCom
+9,ASC,Công ty Cổ phần Chứng khoán ASC,OTC
+10,ATSC,Công ty Cổ phần Chứng khoán An Thành,OTC
+11,BETA,Công ty Cổ phần Chứng khoán BETA,OTC
+12,BMS,Công ty Cổ phần Chứng khoán Bảo Minh,UpCom
+13,BSI,Công ty cổ phần Chứng khoán BIDV,HSX
+14,BVS,Công ty Cổ phần Chứng khoán Bảo Việt,HNX
+15,CASC,Công ty Cổ phần Chứng khoán Thủ Đô,OTC
+16,CSI,Công ty cổ phần Chứng khoán Kiến thiết Việt Nam,UpCom
+17,CTS,Công ty cổ phần Chứng khoán Ngân hàng Công thương,HSX
+18,DASC,Công ty TNHH MTV Chứng khoán Ngân hàng Đông Á,OTC
+19,DDS,Công ty Cổ phần Chứng khoán AIS,OTC
+20,DSC,Công ty Cổ phần Chứng khoán DSC,HSX
+21,DSE,Công ty Cổ phần Chứng khoán DNSE,HSX
+22,DVSC,Công ty Cổ phần Chứng khoán Đại Việt,OTC
+23,ECC,Công ty Cổ phần Chứng khoán EUROCAPITAL,OTC
+24,EVS,Công ty cổ phần Chứng khoán EVS,HNX
+25,FLCS,'',OTC
+26,FTS,Công ty Cổ phần Chứng khoán FPT,HSX
+27,GLS,Công ty Cổ phần Chứng khoán Sen Vàng,OTC
+28,HBS,Công ty Cổ phần Chứng khoán Hòa Bình,HNX
+29,HBSC,Công ty Cổ phần Chứng khoán Hưng Thịnh,OTC
+30,HCM,Công ty Cổ phần Chứng khoán Thành phố Hồ Chí Minh,HSX
+31,HRS,CTCP Chứng khoán Việt Nam Gateway,OTC
+32,HSSC,Công ty Cổ phần Chứng khoán Hà Nội,OTC
+33,HVS,CTCP Chứng khoán HVS Việt Nam,OTC
+34,IRS,Công ty Cổ phần Chứng khoán Quốc tế Hoàng Gia,OTC
+35,ISC,Công ty Cổ phần Chứng khoán Công Nghiệp Việt Nam,OTC
+36,IVS,Công ty cổ phần Chứng khoán Guotai Junan (Việt Nam),HNX
+37,JSI,Công ty cổ phần Chứng khoán Nhật Bản,OTC
+38,KIS,Công ty Cổ phần Chứng khoán KIS Việt Nam,OTC
+39,KVS,Công ty Cổ phần Chứng khoán KENANGA Việt Nam,OTC
+40,LVS,Công ty cổ phần Chứng khoán Liên Việt,OTC
+41,MBKE,Công ty cổ phần Chứng khoán MayBank Kim Eng,OTC
+42,MBS,Công ty cổ phần Chứng khoán MB,HNX
+43,MHBS,Công ty cổ phần Chứng khoán Ngân hàng Phát triển Nhà đồng bằng Sông Cửu Long,OTC
+44,MIRAEASSET,Công ty TNHH Chứng khoán Mirae Asset (Việt Nam),OTC
+45,MSG,Công ty Chứng khoán JB Việt Nam,OTC
+46,NASC,Công ty TNHH Chứng khoán Shinhan Việt Nam,OTC
+47,NSI,Công ty Cổ phần Chứng khoán Quốc gia,OTC
+48,NVS,Công ty cổ phần Chứng khoán NAVIBANK,OTC
+49,OCS,Công ty Cổ phần Chứng khoán Đại Dương,OTC
+50,ORS,Công ty Cổ phần Chứng khoán Tiên Phong,HSX
+51,OSC,Công ty Cổ phần Chứng khoán ĐẠI TÂY DƯƠNG,OTC
+52,PGSC,Công ty Cổ phần Chứng khoán PHÚ GIA,OTC
+53,PHS,Công ty Cổ phần Chứng khoán Phú Hưng,UpCom
+54,PSI,Công ty cổ phần Chứng khoán Dầu khí,HNX
+55,ROSE,CTCP Chứng khoán Globalmind Capital,OTC
+56,RUBSE,Công ty Cổ phần Chứng khoán CAO SU,OTC
+57,SBBS,Công ty Cổ phần Chứng khoán SAIGONBANK BERJAYA,OTC
+58,SBS,Công ty Cổ phần Chứng khoán SBS,UpCom
+59,SHBS,Công ty Cổ phần Chứng khoán SHB,OTC
+60,SHS,Công ty Cổ phần Chứng Khoán Sài Gòn Hà Nội,HNX
+61,SJCS,Công ty Cổ phần Chứng khoán SJC,OTC
+62,SSI,Công ty cổ phần Chứng khoán SSI,HSX
+63,STSC,Công ty Cổ phần Chứng khoán SÀI GÒN TOURIST,OTC
+64,TCBS,Công ty CTCP chứng khoán Kỹ Thương,OTC
+65,TCI,Công ty cổ phần Chứng khoán Thành Công,HSX
+66,TSS,Công ty Cổ phần Chứng khoán TRƯỜNG SƠN,OTC
+67,TVB,Công ty cổ phần Chứng khoán T-Cap,HSX
+68,TVS,Công ty Cổ phần Chứng khoán Thiên Việt,HSX
+69,TVSI,Công ty Cổ phần Chứng khoán Tân Việt,OTC
+70,VCBS,Công ty TNHH Chứng khoán Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam,OTC
+71,VCI,Công ty Cổ phần Chứng khoán VIETCAP,HSX
+72,VDS,Công ty Cổ phần Chứng khoán Rồng Việt,HSX
+73,VDSE,Công ty Cổ phần Chứng khoán Viễn Đông,OTC
+74,VFS,Công ty Cổ phần Chứng khoán Nhất Việt,HNX
+75,VIG,Công ty Cổ phần Chứng khoán Đầu tư Tài chính Việt Nam,HNX
+76,VINAGLOBAL,Công ty Cổ phần Chứng khoán Toàn Cầu,OTC
+77,VITS,Công ty Cổ phần Chứng khoán VIT,OTC
+78,VIX,Công ty cổ phần Chứng khoán VIX,HSX
+79,VND,Công ty cổ phần Chứng khoán VNDIRECT,HSX
+80,VNSC,Công ty Cổ phần Chứng khoán VINA,OTC
+81,VPSS,Công ty Cổ phần Chứng khoán VPS,OTC
+82,VQSC,Công ty Cổ phần Chứng khoán Việt Quốc,OTC
+83,VSCS,Công ty Cổ phần Chứng khoán Việt,OTC
+84,VSEC,Công ty Cổ phần Chứng khoán Việt Nam,OTC
+85,VTSC,Công ty Cổ phần Chứng khoán Việt Thành,OTC
+86,VTSS,Công ty Cổ phần Chứng khoán Việt Tín,OTC
+87,VUA,Công ty cổ phần Chứng khoán Stanley Brothers,UpCom
+88,WOORICBV,Công ty TNHH Chứng khoán NH Việt Nam,OTC
+89,WSS,Công ty Cổ phần Chứng khoán Phố Wall,HNX

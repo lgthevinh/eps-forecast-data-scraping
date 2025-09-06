@@ -1,0 +1,676 @@
+STT,name,sec_code,stock_exchange
+1,CTCP Bao bì Dầu khí Việt Nam,PBP,HNX
+2,CTCP Bao bì và In nông nghiệp,INN,HNX
+3,CTCP Bao bì Đạm Phú Mỹ,PMP,HNX
+4,CTCP Bia Hà Nội - Hải Dương,HAD,HNX
+5,CTCP Bia Thanh Hóa,THB,HNX
+6,CTCP Bảo vệ thực vật Sài Gòn,SPC,HNX
+7,CTCP Bến xe miền Tây,WCS,HNX
+8,CTCP Bọc ống dầu khí Việt Nam,PVB,HNX
+9,CTCP CNC Capital Việt Nam,KSQ,HNX
+10,CTCP Chế tạo máy - Vinacomin,CTT,HNX
+11,CTCP Cokyvina,CKV,HNX
+12,CTCP Container miền Trung,VSM,HNX
+13,CTCP Công nghiệp Tung Kuang,TKU,HNX
+14,CTCP Công nghiệp thương mại Sông Đà,STP,HNX
+15,CTCP Công trình giao thông Vận tải Quảng Nam,QTC,HNX
+16,CTCP Cơ khí Xăng dầu,PMS,HNX
+17,CTCP Cơ khí và Khoáng sản Hà Giang,HGM,HNX
+18,CTCP Cảng An Giang,CAG,HNX
+19,CTCP Cảng Cam Ranh,CCR,HNX
+20,CTCP Cảng Nghệ Tĩnh,NAP,HNX
+21,CTCP Cảng Rau quả,VGP,HNX
+22,CTCP Cảng Đoạn Xá,DXP,HNX
+23,CTCP Cảng Đà Nẵng,CDN,HNX
+24,CTCP Cấp Nước Gia Định,GDW,HNX
+25,CTCP Dược liệu Việt Nam,DVM,HNX
+26,CTCP Dược liệu và thực phẩm Việt Nam,VHE,HNX
+27,CTCP Dược phẩm Dược liệu Pharmedic,PMC,HNX
+28,CTCP Dược phẩm Hà Tây,DHT,HNX
+29,CTCP Dược phẩm Phong Phú,PPP,HNX
+30,CTCP Dược phẩm Tipharco,DTG,HNX
+31,CTCP Dược phẩm trung ương 3,DP3,HNX
+32,CTCP Dược thú y Cai Lậy,MKV,HNX
+33,CTCP Dịch vụ Bến Thành,BSC,HNX
+34,CTCP Dịch vụ Hàng không Sân bay Đà Nẵng,MAS,HNX
+35,CTCP Dịch vụ Kỹ thuật Điện lực Dầu khí Việt Nam,PPS,HNX
+36,CTCP Dịch vụ phân phối tổng hợp dầu khí,PSD,HNX
+37,CTCP Dịch vụ vận tải và thương mại,TJC,HNX
+38,CTCP G-AUTOMOBILE,GMA,HNX
+39,CTCP GKM HOLDINGS,GKM,HNX
+40,CTCP Giao nhận Vận tải Ngoại thương,VNT,HNX
+41,CTCP Gạch Men Thanh Thanh,TTC,HNX
+42,CTCP Gạch Ngói Cao Cấp,MCC,HNX
+43,CTCP Gạch ngói Nhị Hiệp,NHC,HNX
+44,CTCP Gạch ngói gốm xây dựng Mỹ Xuân,GMX,HNX
+45,CTCP Hãng Sơn Đông Á,HDA,HNX
+46,CTCP Hòa Bình Takara,CTP,HNX
+47,CTCP Hóa chất Việt Trì,HVT,HNX
+48,CTCP Hải Minh,HMH,HNX
+49,CTCP KASATI,KST,HNX
+50,CTCP Khoáng sản Bắc Kạn,BKC,HNX
+51,CTCP Khách sạn Sài Gòn,SGH,HNX
+52,CTCP Kim khí miền Trung,KMT,HNX
+53,CTCP Kinh doanh Khí Miền Nam,PGS,HNX
+54,CTCP Kinh doanh LPG Việt Nam,PVG,HNX
+55,CTCP Kiên Hùng,KHS,HNX
+56,CTCP Kỹ Thuật Điện Toàn Cầu,GLT,HNX
+57,CTCP Kỹ nghệ khoáng sản Quảng Nam,MIC,HNX
+58,CTCP LICOGI 13,LIG,HNX
+59,CTCP LICOGI 14,L14,HNX
+60,CTCP Lương thực thực phẩm Safoco,SAF,HNX
+61,CTCP Lắp máy thí nghiệm cơ điện,LCD,HNX
+62,CTCP Mía đường Sơn La,SLS,HNX
+63,CTCP Mĩ Thuật và Truyền Thông,ADC,HNX
+64,CTCP Ngân Sơn,NST,HNX
+65,CTCP Nhân lực và thương mại Vinaconex,VCM,HNX
+66,CTCP Nhựa Thiếu niên Tiền Phong,NTP,HNX
+67,CTCP Nhựa bao bì Vinh,VBC,HNX
+68,CTCP One Capital Hospitality,OCH,HNX
+69,CTCP PETRO TIMES,PPT,HNX
+70,CTCP Phát triển Hàng hải,VMS,HNX
+71,CTCP Phát triển Hạ Tầng Vĩnh Phúc,IDV,HNX
+72,CTCP Phát triển Năng Lượng Sơn Hà,SHE,HNX
+73,CTCP Phân Bón và Hóa Chất Dầu Khí Miền Trung,PCE,HNX
+74,CTCP Phân bón và Hóa chất Dầu khí Miền Bắc,PMB,HNX
+75,CTCP Phân bón và Hóa chất dầu khí Tây Nam Bộ,PSW,HNX
+76,CTCP Phân lân Ninh Bình,NFC,HNX
+77,CTCP Phụ gia nhựa,PGN,HNX
+78,CTCP Pin Hà Nội,PHN,HNX
+79,CTCP SIMCO Sông Đà,SDA,HNX
+80,CTCP Sara Việt Nam,SRA,HNX
+81,CTCP Sonadezi Long Bình,SZB,HNX
+82,CTCP Supe Phốt phát và Hóa chất Lâm Thao,LAS,HNX
+83,CTCP Sách Giáo Dục Tp.Hồ Chí Minh,SGD,HNX
+84,CTCP Sách Giáo dục tại TP. Hà Nội,EBS,HNX
+85,CTCP Sách giáo dục tại TP Đà Nẵng,DAE,HNX
+86,CTCP Sách và Thiết bị trường học TPHCM,STC,HNX
+87,CTCP Sách và thiết bị Bình Thuận,BST,HNX
+88,CTCP Sách và thiết bị giáo dục Miền Nam,SMN,HNX
+89,CTCP Sách và thiết bị trường học Quảng Ninh,QST,HNX
+90,CTCP Sách và thiết bị trường học Đà Nẵng,BED,HNX
+91,CTCP Sách Đại học - Dạy nghề,HEV,HNX
+92,CTCP Sông Đà 9,SD9,HNX
+93,CTCP Sơn Đồng Nai,SDN,HNX
+94,CTCP Sản xuất kinh doanh Dược và Trang thiết bị y tế Việt Mỹ,AMV,HNX
+95,CTCP Sản xuất và Thương mại nhựa Việt Thành,VTZ,HNX
+96,CTCP TM XNK Thủ Đức,TMC,HNX
+97,CTCP Tasco,HUT,HNX
+98,CTCP Test GSĐC,,HNX
+99,CTCP Than Cao Sơn - TKV,CST,HNX
+100,CTCP Than Hà Lầm - Vinacomin,HLC,HNX
+101,CTCP Than Hà Tu - Vinacomin,THT,HNX
+102,CTCP Than Mông Dương - Vinacomin,MDC,HNX
+103,CTCP Than Vàng Danh - Vinacomin,TVD,HNX
+104,CTCP Thanh Hoa Sông Đà,THS,HNX
+105,CTCP Thiết bị Bưu điện,POT,HNX
+106,CTCP Thiết kế Xây dựng Thương mại Phúc Thịnh,PTD,HNX
+107,CTCP Thuốc sát trùng Cần Thơ,CPC,HNX
+108,CTCP Thép Mê Lin,MEL,HNX
+109,CTCP Thương mại Bia Hà Nội,HAT,HNX
+110,CTCP Thương mại Dịch vụ Vận tải xi măng Hải Phòng,HCT,HNX
+111,CTCP Thương mại Hóc Môn,HTC,HNX
+112,CTCP Thương mại và Dịch vụ LVA,LBE,HNX
+113,CTCP Thương mại và Dịch vụ Tiến Thành,TTH,HNX
+114,CTCP Thương mại và Vận tải Petrolimex Hà Nội,PJC,HNX
+115,CTCP Thống Nhất,BAX,HNX
+116,CTCP Thủy điện Nậm Mu,HJS,HNX
+117,CTCP Thực phẩm Bích Chi,BCF,HNX
+118,CTCP Tin học Viễn thông Petrolimex,PIA,HNX
+119,CTCP Trang,TFC,HNX
+120,CTCP Truyền Thông số 1,ONE,HNX
+121,CTCP Tân Phú Việt Nam,TPP,HNX
+122,CTCP Tư vấn xây dựng Điện 4,TV4,HNX
+123,CTCP Tư vấn xây dựng điện 3,TV3,HNX
+124,CTCP Tư vấn Đầu tư PP Enterprise,PPE,HNX
+125,CTCP Tư vấn đầu tư IDICO,INC,HNX
+126,CTCP Tập Đoàn Đầu Tư Thăng Long,TIG,HNX
+127,CTCP Tập đoàn CMH Việt Nam,CMS,HNX
+128,CTCP Tập đoàn COTANA,CSC,HNX
+129,CTCP Tập đoàn MBG,MBG,HNX
+130,CTCP Tập đoàn Nagakawa,NAG,HNX
+131,CTCP Tập đoàn Nhôm Sông Hồng Shalumi,NSH,HNX
+132,CTCP Tập đoàn Quản lý Tài sản Trí Việt,TVC,HNX
+133,CTCP Tập đoàn Thiên Quang,ITQ,HNX
+134,CTCP Tập đoàn Vexilla Việt Nam,SVN,HNX
+135,CTCP Tập đoàn Vinacontrol,VNC,HNX
+136,CTCP Tập đoàn Xây dựng SCG,SCG,HNX
+137,CTCP Tập đoàn Đầu tư Din Capital,PDB,HNX
+138,CTCP Tập đoàn Đầu tư IPA,IPA,HNX
+139,CTCP VICOSTONE,VCS,HNX
+140,CTCP Vicem Bao bì Bút Sơn,BBS,HNX
+141,CTCP Vicem Bao bì Bỉm Sơn,BPC,HNX
+142,CTCP Vicem Bao bì Hải Phòng,BXH,HNX
+143,CTCP Vicem Thạch cao xi măng,TXM,HNX
+144,CTCP Viglacera Hạ Long,VHL,HNX
+145,CTCP Viglacera Đông Triều,DTC,HNX
+146,CTCP Vinaconex 21,V21,HNX
+147,CTCP Vinaconex 25,VCC,HNX
+148,CTCP Viễn Thông VTC,VTC,HNX
+149,CTCP Văn hóa Tân Bình,ALT,HNX
+150,CTCP Vải sợi May mặc Miền Bắc,TET,HNX
+151,CTCP Vận tải Khí và Hóa chất Việt Nam,PCT,HNX
+152,CTCP Vận tải và Dịch vụ Petrolimex Hải Phòng,PTS,HNX
+153,CTCP Vận tải và dịch vụ Petrolimex Sài Gòn,PSC,HNX
+154,CTCP X20,X20,HNX
+155,CTCP XNK Sa Giang,SGC,HNX
+156,CTCP Xi măng Bỉm Sơn,BCC,HNX
+157,CTCP Xi măng Thái Bình,TBX,HNX
+158,CTCP Xi măng Vicem Bút Sơn,BTS,HNX
+159,CTCP Xi măng Vicem Hoàng Mai,HOM,HNX
+160,CTCP Xuất nhập khẩu Than - Vinacomin,CLM,HNX
+161,CTCP XÂY LẮP III PETROLIMEX,PEN,HNX
+162,CTCP Xây dựng Sông Hồng,ICG,HNX
+163,CTCP Xây dựng Số 1,VC1,HNX
+164,CTCP Xây dựng số 12,V12,HNX
+165,CTCP Xây dựng và Đầu tư Visicons,VC6,HNX
+166,CTCP Xây dựng điện VNECO 8,VE8,HNX
+167,CTCP Xây dựng điện VNECO4,VE4,HNX
+168,CTCP Xây dựng điện Vneco 3,VE3,HNX
+169,CTCP Xây lắp Phát triển nhà Đà Nẵng,NDX,HNX
+170,CTCP Xây lắp cơ khí và lương thực thực phẩm,MCF,HNX
+171,CTCP Xăng dầu dầu khí Phú Yên,PPY,HNX
+172,CTCP chế tạo kết cấu thép VNECO.SSM,SSM,HNX
+173,CTCP que hàn điện Việt Đức,QHD,HNX
+174,CTCP xuất nhập khẩu Hàng không,ARM,HNX
+175,CTCP xây dựng điện VNECO1,VE1,HNX
+176,CTCP Điện nước lắp máy Hải Phòng,DNC,HNX
+177,CTCP Đại lý hàng hải Việt Nam,VSA,HNX
+178,CTCP Đầu Tư Công Nghiệp Xuất Nhập Khẩu Đông Dương,DDG,HNX
+179,CTCP Đầu tư CMC,CMC,HNX
+180,CTCP Đầu tư Châu Á - Thái Bình Dương,API,HNX
+181,CTCP Đầu tư PV2,PV2,HNX
+182,CTCP Đầu tư Phát triển Thành Đạt,DTD,HNX
+183,CTCP Đầu tư Phát triển Xây dựng - Hội An,DIH,HNX
+184,CTCP Đầu tư Sao Thăng Long,DST,HNX
+185,CTCP Đầu tư Sản xuất Bảo Ngọc,BNA,HNX
+186,CTCP Đầu tư dịch vụ và phát triển xanh,GIC,HNX
+187,CTCP Đầu tư phát triển gas đô thị,PCG,HNX
+188,CTCP Đầu tư phát triển nhà Đà Nẵng,NDN,HNX
+189,CTCP Đầu tư phát triển xây dựng (DIC) số 2,DC2,HNX
+190,CTCP Đầu tư tổng hợp Hà Nội,SHN,HNX
+191,CTCP Đầu tư và Phát triển Bất động sản HUDLAND,HLD,HNX
+192,CTCP Đầu tư và Phát triển Sao Mai (tên cũ CTCP Viễn Liên),UNI,HNX
+193,CTCP Đầu tư và Phát triển TDT,TDT,HNX
+194,CTCP Đầu tư và Phát triển doanh nghiệp Việt Nam,FID,HNX
+195,CTCP Đầu tư và Phát triển giáo dục Phương Nam,SED,HNX
+196,CTCP Đầu tư và Phát triển Điện Miền Trung,SEB,HNX
+197,CTCP Đầu tư và Thương mại TNG,TNG,HNX
+198,CTCP Đầu tư và Xây dựng BDC Việt Nam,MCO,HNX
+199,CTCP Đầu tư và Xây dựng Thủy lợi Lâm Đồng,LHC,HNX
+200,CTCP Đầu tư và Xây dựng Vina2,VC2,HNX
+201,CTCP Đầu tư và Xây dựng số 18 (LICOGI 18),L18,HNX
+202,CTCP Đầu tư và phát triển giáo dục Đà Nẵng,DAD,HNX
+203,CTCP Đầu tư và xây lắp Constrexim Số 8,CX8,HNX
+204,CTCP Đầu tư xây dựng và phát triển đô thị sông Đà,SDU,HNX
+205,CTCP Đầu tư Điện Lực 3,PIC,HNX
+206,CTCP Địa ốc Chợ Lớn,RCL,HNX
+207,CTCP Đồ hộp Hạ Long,CAN,HNX
+208,CTCP Ắc quy Tia Sáng,TSB,HNX
+209,CTCP Ống thép Việt Đức VGPIPE,VGS,HNX
+210,CÔNG TY CP VINAFREIGHT,VNF,HNX
+211,CÔNG TY CỔ PHẦN AAV GROUP,AAV,HNX
+212,CÔNG TY CỔ PHẦN ALPHANAM E&C,AME,HNX
+213,CÔNG TY CỔ PHẦN CẤP NƯỚC NHÀ BÈ,NBW,HNX
+214,CÔNG TY CỔ PHẦN DNP HOLDING,DNP,HNX
+215,CÔNG TY CỔ PHẦN DU LỊCH - THƯƠNG MẠI TÂY NINH,TTT,HNX
+216,CÔNG TY CỔ PHẦN DỊCH VỤ SÂN BAY QUỐC TẾ CAM RANH,CIA,HNX
+217,CÔNG TY CỔ PHẦN KINH DOANH THAN MIỀN BẮC- VINACOMIN,TMB,HNX
+218,CÔNG TY CỔ PHẦN PGT HOLDINGS,PGT,HNX
+219,CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ ĐẦU TƯ VI NA TA BA,VTJ,HNX
+220,CÔNG TY CỔ PHẦN TẬP ĐOÀN DANH KHÔI,NRC,HNX
+221,CÔNG TY CỔ PHẦN XÂY DỰNG SỐ 9 – VC9,VC9,HNX
+222,CÔNG TY CỔ PHẦN ĐIỆN CƠ HẢI PHÒNG,DHP,HNX
+223,Công Ty Cổ Phần Dược Lâm Đồng (Ladophar),LDP,HNX
+224,Công Ty Cổ Phần Nông Nghiệp Hùng Hậu,SJ1,HNX
+225,Công Ty Cổ Phần Địa Ốc 11,D11,HNX
+226,Công ty CP Bánh kẹo Hải Hà,HHC,HNX
+227,Công ty CP SCI E&C,SCI,HNX
+228,Công ty CP Sadico Cần Thơ,SDG,HNX
+229,Công ty CP Đầu tư IDJ Việt Nam,IDJ,HNX
+230,Công ty CP Đầu tư MST,MST,HNX
+231,Công ty Cổ phần Tập đoàn BGI,VC7,HNX
+232,Công ty Cổ phần Cơ điện miền Trung,CJC,HNX
+233,Công ty Cổ phần Cấp nước Bến Thành,BTW,HNX
+234,Công ty Cổ phần DS3,DS3,HNX
+235,Công ty Cổ phần Dây cáp điện Việt Thái,VTH,HNX
+236,Công ty Cổ phần Dược trung ương Mediplantex,MED,HNX
+237,Công ty Cổ phần Dệt lưới Sài Gòn,SFN,HNX
+238,Công ty Cổ phần Nhiệt điện Ninh Bình,NBP,HNX
+239,Công ty Cổ phần Năng lượng và Môi trường VICEM (tên cũ CTCP Vicem Vật tư vận tải xi măng),VTV,HNX
+240,Công ty Cổ phần SAMETEL,SMT,HNX
+241,Công ty Cổ phần Thaiholdings,THD,HNX
+242,Công ty Cổ phần Thủy điện Nước Trong,NTH,HNX
+243,Công ty Cổ phần Transimex Logistics,TOT,HNX
+244,Công ty Cổ phần Tập Đoàn Alpha Seven,DL1,HNX
+245,Công ty Cổ phần Tập đoàn ECI,ECI,HNX
+246,Công ty Cổ phần Tập đoàn GCL,KDM,HNX
+247,Công ty Cổ phần Tập đoàn Thành Thái,KKC,HNX
+248,Công ty Cổ phần Viglacera Tiên Sơn,VIT,HNX
+249,Công ty Cổ phần Vimeco,VMC,HNX
+250,Công ty Cổ phần Xây dựng 1369,C69,HNX
+251,Công ty Cổ phần Xây lắp Thành An 96,TA9,HNX
+252,Công ty Cổ phần Đầu tư và Phát triển Công nghệ Văn Lang,VLA,HNX
+253,Công ty Cổ phần Đầu tư và Phát triển giáo dục Hà Nội,EID,HNX
+254,Công ty Cổ phần Đầu tư và Xây dựng 40,L40,HNX
+255,Công ty Cổ phần đầu tư DNA,KSD,HNX
+256,Công ty cổ phần Bê tông Hòa Cầm - Intimex,HCC,HNX
+257,Công ty cổ phần Bột giặt NET,NET,HNX
+258,Công ty cổ phần Chế tạo Bơm Hải Dương,CTB,HNX
+259,Công ty cổ phần HTC Holding,CET,HNX
+260,Công ty cổ phần Khoáng sản Á Châu,AMC,HNX
+261,Công ty cổ phần Logistics PortserCo,PRC,HNX
+262,Công ty cổ phần Nhựa Picomat,PCH,HNX
+263,Công ty cổ phần PVI,PVI,HNX
+264,Công ty cổ phần Phân bón và Hóa chất Dầu khí Đông Nam Bộ,PSE,HNX
+265,Công ty cổ phần SCI,S99,HNX
+266,Công ty cổ phần Spiral Galaxy,SPI,HNX
+267,Công ty cổ phần Sông Đà 11,SJE,HNX
+268,Công ty cổ phần Sông Đà 5,SD5,HNX
+269,Công ty cổ phần Sông Đà 505,S55,HNX
+270,Công ty cổ phần Than Núi Béo – Vinacomin,NBC,HNX
+271,Công ty cổ phần Thực phẩm Lâm Đồng,VDL,HNX
+272,Công ty cổ phần Tư Vấn Sông Đà,SDC,HNX
+273,Công ty cổ phần Tập đoàn C.E.O,CEO,HNX
+274,Công ty cổ phần Tập đoàn Giáo dục Trí Việt,CAR,HNX
+275,Công ty cổ phần Tập đoàn Macstar,MAC,HNX
+276,Công ty cổ phần Tập đoàn Nam Mê Kông,VC3,HNX
+277,Công ty cổ phần Tập đoàn Sunshine (Công ty Cổ phần Tập đoàn Real Tech,KSF,HNX
+278,Công ty cổ phần Tập đoàn tập đoàn đầu tư ATS,ATS,HNX
+279,Công ty cổ phần lâm nông sản thực phẩm Yên Bái,CAP,HNX
+280,Công ty cổ phần Đá Hoàng Mai,HMR,HNX
+281,Công ty cổ phần Đường Kon Tum,KTS,HNX
+282,Công ty cổ phần Đầu tư QP Xanh,HKT,HNX
+283,Ngân hàng TMCP Bắc Á,BAB,HNX
+284,Ngân hàng TMCP Quốc Dân,NVB,HNX
+285,Tổng CT Công nghiệp mỏ Việt Bắc TKV-CTCP,MVB,HNX
+286,Tổng CTCP Bảo Hiểm Bưu Điện,PTI,HNX
+287,Tổng CTCP Dịch vụ Kỹ thuật Dầu khí Việt Nam,PVS,HNX
+288,Tổng CTCP Tái bảo hiểm quốc gia Việt Nam,VNR,HNX
+289,Tổng công ty Hoá chất và dịch vụ Dầu khí - CTCP,PVC,HNX
+290,Tổng công ty Hóa dầu Petrolimex - CTCP,PLC,HNX
+291,Tổng công ty IDICO - CTCP,IDC,HNX
+292,Tổng công ty Lâm nghiệp Việt Nam - CTCP,VIF,HNX
+293,Tổng công ty Thăng Long-CTCP,TTL,HNX
+294,Tổng công ty cổ phần tái bảo hiểm Hà Nội (Tổng công ty cổ phần tái bảo hiểm PVI),PRE,HNX
+295,Tổng công ty khoáng sản TKV - CTCP,KSV,HNX
+296,Tổng công ty Điện lực TKV - CTCP,DTK,HNX
+297,CT CP TẬP ĐOÀN DẦU KHÍ AN PHA,ASP,HOSE
+298,CT CP Văn Hóa Phương Nam,PNC,HOSE
+299,CTCP AN TIẾN INDUSTRIES,HII,HOSE
+300,CTCP Bamboo Capital,BCG,HOSE
+301,CTCP Bia Sài Gòn - Miền Trung,SMB,HOSE
+302,CTCP Bán lẻ kỹ thuật số FPT,FRT,HOSE
+303,CTCP BĐS Du lịch Ninh Vân Bay,NVT,HOSE
+304,CTCP Bất động sản Khải Hoàn Land,KHG,HOSE
+305,CTCP Bất động sản Điện lực miền Trung,LEC,HOSE
+306,CTCP Bột giặt LIX,LIX,HOSE
+307,CTCP CMC,CVT,HOSE
+308,CTCP CNG Việt Nam,CNG,HOSE
+309,CTCP COMA 18,CIG,HOSE
+310,CTCP Cao su Hòa Bình,HRC,HOSE
+311,CTCP Cao su Tây Ninh,TRC,HOSE
+312,CTCP Cao su Đà Nẵng,DRC,HOSE
+313,CTCP Chế biến gỗ Thuận An,GTA,HOSE
+314,CTCP Chế biến hàng xuất khẩu Long An,LAF,HOSE
+315,CTCP City Auto,CTF,HOSE
+316,CTCP Clever Group (tên cũ CTCP Quảng cáo thông minh),ADG,HOSE
+317,CTCP Container Việt Nam,VSC,HOSE
+318,CTCP Cáp treo Núi Bà Tây Ninh,TCT,HOSE
+319,CTCP Công nghiệp Gốm sứ Taicera,TCR,HOSE
+320,CTCP Công nghệ Sài gòn Viễn Đông,SVT,HOSE
+321,CTCP Công nghệ Tiên Phong,ITD,HOSE
+322,CTCP Công nghệ viễn thông Sài Gòn,SGT,HOSE
+323,CTCP Công viên nước Đầm Sen,DSN,HOSE
+324,CTCP Cơ điện lạnh,REE,HOSE
+325,CTCP Cảng Đồng Nai,PDN,HOSE
+326,CTCP Cấp Nước Thủ Đức,TDW,HOSE
+327,CTCP Cấp nước chợ Lớn,CLW,HOSE
+328,CTCP DRH HOLDINGS,DRH,HOSE
+329,CTCP Dây và Cáp điện Taya Việt Nam,TYA,HOSE
+330,CTCP Dược - Trang Thiết Bị Y Tế Bình Định,DBD,HOSE
+331,CTCP Dược Hậu Giang,DHG,HOSE
+332,CTCP Dược phẩm Bến Tre,DBT,HOSE
+333,CTCP Dược phẩm TW VIDIPHA,VDP,HOSE
+334,CTCP Dầu khí Thái Dương,TDG,HOSE
+335,CTCP Dệt may đầu tư thương mại Thành Công,TCM,HOSE
+336,CTCP Dịch Vụ Hàng Hóa Sài Gòn,SCS,HOSE
+337,CTCP Dịch vụ Bất động sản Đất Xanh,DXS,HOSE
+338,CTCP Dịch vụ Hàng không Taseco,AST,HOSE
+339,CTCP Dịch vụ hàng hóa Nội Bài,NCT,HOSE
+340,CTCP Dịch vụ tổng hợp Sài Gòn,SVC,HOSE
+341,CTCP Dịch vụ Ô tô Hàng Xanh,HAX,HOSE
+342,CTCP Everpia,EVE,HOSE
+343,CTCP GARMEX SÀI GÒN,GMC,HOSE
+344,CTCP Gemadept,GMD,HOSE
+345,CTCP Gỗ An Cường,ACG,HOSE
+346,CTCP HACISCO,HAS,HOSE
+347,CTCP Hoàng Anh Gia Lai,HAG,HOSE
+348,CTCP Hàng không VietJet,VJC,HOSE
+349,CTCP Hưng Thịnh Incons,HTN,HOSE
+350,CTCP Hợp tác kinh tế và xuất nhập khẩu Savimex,SAV,HOSE
+351,CTCP ICD Tân cảng - Long Bình,ILB,HOSE
+352,CTCP In và Bao bì Mỹ Châu,MCP,HOSE
+353,CTCP Kho vận miền Nam,STG,HOSE
+354,CTCP Khoan và Dịch vụ Khoan Dầu khí (PV Drilling),PVD,HOSE
+355,CTCP Khoáng sản Bình Định,BMC,HOSE
+356,CTCP Khoáng sản Công nghiệp Yên Bái,YBM,HOSE
+357,CTCP Khoáng sản Fecon,FCM,HOSE
+358,CTCP Khử trùng Việt Nam,VFG,HOSE
+359,CTCP Kim khí TPHCM - VNSTEEL,HMC,HOSE
+360,CTCP Kinh doanh và Phát triển Bình Dương,TDC,HOSE
+361,CTCP Kosy,KOS,HOSE
+362,CTCP Kỹ Nghệ Lạnh (SEAREFICO),SRF,HOSE
+363,CTCP Lilama 18,LM8,HOSE
+364,CTCP Long Hậu,LHG,HOSE
+365,CTCP Lọc hóa dầu Bình Sơn,BSR,HOSE
+366,CTCP MHC,MHC,HOSE
+367,CTCP May Sông Hồng,MSH,HOSE
+368,CTCP Mirae,KMR,HOSE
+369,CTCP Mía đường Lam Sơn,LSS,HOSE
+370,CTCP Nam Việt,ANV,HOSE
+371,CTCP Ngoại Thương và Phát triển Đầu tư TP.HCM,FDC,HOSE
+372,CTCP Nhiên liệu Sài Gòn,SFC,HOSE
+373,CTCP Nhiệt điện Bà Rịa,BTP,HOSE
+374,CTCP Nhiệt điện Phả Lại,PPC,HOSE
+375,CTCP Nhựa An Phát Xanh,AAA,HOSE
+376,CTCP Nhựa Bình Minh,BMP,HOSE
+377,CTCP Nhựa Tân Đại Hưng,TPC,HOSE
+378,CTCP Nông nghiệp Quốc tế Hoàng Anh Gia Lai,HNG,HOSE
+379,CTCP Năng lượng và Bất động sản Trường Thành,TEG,HOSE
+380,CTCP Nước Thủ Dầu Một,TDM,HOSE
+381,CTCP Phát Triển BĐS Phát Đạt,PDR,HOSE
+382,CTCP Phát triển hạ tầng kỹ thuật,IJC,HOSE
+383,CTCP Phát triển khu công nghiệp Tín Nghĩa,TIP,HOSE
+384,CTCP Phát triển nhà Bà Rịa - Vũng Tàu,HDC,HOSE
+385,CTCP Phát triển nhà Thủ Đức,TDH,HOSE
+386,CTCP Phát triển Điện lực Việt Nam,VPD,HOSE
+387,CTCP Phát triển Đô thị Từ Liêm,NTL,HOSE
+388,CTCP Phân bón Bình Điền,BFC,HOSE
+389,CTCP Phân bón Miền Nam,SFG,HOSE
+390,CTCP Phân lân nung chảy Văn Điển,VAF,HOSE
+391,CTCP Phân phối Khí thấp áp Dầu khí Việt Nam,PGD,HOSE
+392,CTCP Phú Tài,PTB,HOSE
+393,CTCP Phục vụ mặt đất Sài Gòn,SGN,HOSE
+394,CTCP Quốc Cường Gia Lai,QCG,HOSE
+395,CTCP SXKD XNK DV và DT Tân Bình (Tanimex),TIX,HOSE
+396,CTCP Siam Brothers Việt Nam,SBV,HOSE
+397,CTCP Sonadezi Châu Đức,SZC,HOSE
+398,CTCP Sonadezi long thành,SZL,HOSE
+399,CTCP Sông Ba,SBA,HOSE
+400,CTCP Sơn Hà Sài Gòn,SHA,HOSE
+401,CTCP Sơn Á Đông,ADP,HOSE
+402,CTCP Sản xuất và công nghệ nhựa Pha Lê,PLP,HOSE
+403,CTCP Sản xuất và thương mại Nam Hoa,NHT,HOSE
+404,CTCP Sợi Thế Kỷ,STK,HOSE
+405,CTCP TV-TM-DV Địa ốc Hoàng Quân,HQC,HOSE
+406,CTCP Thiết bị phụ tùng Sài Gòn,SMA,HOSE
+407,CTCP Thuận Đức,TDP,HOSE
+408,CTCP Thuốc sát trùng Việt Nam,VPS,HOSE
+409,CTCP Thép Nam Kim,NKG,HOSE
+410,CTCP Thương mại - Dịch vụ Bến Thành,BTT,HOSE
+411,CTCP Thương mại Đầu tư Dầu khí Nam Sông Hậu,PSH,HOSE
+412,CTCP Thương nghiệp Cà Mau,CMV,HOSE
+413,CTCP Thế giới số,DGW,HOSE
+414,CTCP Thủy sản Mekong,AAM,HOSE
+415,CTCP Thủy điện - Điện lực 3,DRL,HOSE
+416,CTCP Thủy điện Cần Đơn,SJD,HOSE
+417,CTCP Thủy điện Sê San 4A,S4A,HOSE
+418,CTCP Thủy điện Thác Bà,TBC,HOSE
+419,CTCP Thủy điện Thác Mơ,TMP,HOSE
+420,CTCP Thủy điện Vĩnh Sơn-Sông Hinh,VSH,HOSE
+421,CTCP Tàu cao tốc Superdong - Kiên Giang,SKG,HOSE
+422,CTCP Tâp đoàn Hà Đô,HDG,HOSE
+423,CTCP TẬP ĐOÀN KIDO,KDC,HOSE
+424,CTCP Tập Đoàn Sao Mai,ASM,HOSE
+425,CTCP Tập đoàn An Phát Holdings,APH,HOSE
+426,CTCP Tập đoàn Công nghệ CMC,CMG,HOSE
+427,CTCP Tập đoàn Dabaco Việt Nam,DBC,HOSE
+428,CTCP Tập đoàn Hoa Sen,HSG,HOSE
+429,CTCP Tập đoàn Hòa Phát,HPG,HOSE
+430,CTCP Tập đoàn Hóa chất Đức Giang,DGC,HOSE
+431,CTCP Tập đoàn Khách sạn Đông Á,DAH,HOSE
+432,CTCP Tập đoàn Masan,MSN,HOSE
+433,CTCP Tập đoàn PAN,PAN,HOSE
+434,CTCP Tập đoàn Thiên Long,TLG,HOSE
+435,CTCP Tập đoàn Thép Tiến Lên,TLH,HOSE
+436,CTCP Tập đoàn Tiên Sơn Thanh Hóa,AAT,HOSE
+437,CTCP Tập đoàn Yeah1,YEG,HOSE
+438,CTCP Tập đoàn bệnh viện TNH,TNH,HOSE
+439,CTCP Tập đoàn cơ khí công nghệ cao SIBA,SBG,HOSE
+440,CTCP Tập đoàn Đầu tư Địa ốc No Va,NVL,HOSE
+441,CTCP Tập đoàn Đức Long Gia Lai,DLG,HOSE
+442,CTCP Tổng Công ty Cổ phần Địa ốc Sài Gòn,SGR,HOSE
+443,CTCP Vicem Vật liệu xây dựng Đà Nẵng,DXV,HOSE
+444,CTCP Victory Capital (Tên cũ: CTCP Đầu tư Hạ tầng và Đô thị Dầu khí),PTL,HOSE
+445,CTCP Vinacafe Biên Hòa,VCF,HOSE
+446,CTCP Vincom Retail,VRE,HOSE
+447,CTCP Vàng bạc đá quý Phú Nhuận,PNJ,HOSE
+448,CTCP Vĩnh Hoàn,VHC,HOSE
+449,CTCP Vạn Phát Hưng,VPH,HOSE
+450,CTCP Vận tải biển Việt Nam,VOS,HOSE
+451,CTCP Vận tải dầu khí Thái Bình Dương,PVP,HOSE
+452,CTCP Vận tải và Xếp dỡ Hải An,HAH,HOSE
+453,CTCP Vận tải xăng dầu VIPCO,VIP,HOSE
+454,CTCP Vận tải xăng dầu VITACO,VTO,HOSE
+455,CTCP Vận tải xăng dầu đường thủy Petrolimex,PJT,HOSE
+456,CTCP Vật tư - Xăng dầu (Comeco),COM,HOSE
+457,CTCP Vật tư Kỹ thuật Nông nghiệp Cần Thơ,TSC,HOSE
+458,CTCP XNK Petrolimex,PIT,HOSE
+459,CTCP XNK Thủy sản Cửu Long An Giang,ACL,HOSE
+460,CTCP Xi măng VICEM Hà Tiên,HT1,HOSE
+461,CTCP Xuất Nhập Khẩu Y tế Domesco,DMC,HOSE
+462,CTCP Xuất nhập khẩu thủy sản Bến Tre,ABT,HOSE
+463,CTCP Xây Dựng & Giao Thông Bình Dương,BCE,HOSE
+464,CTCP Xây dựng 47,C47,HOSE
+465,CTCP Xây dựng Coteccons,CTD,HOSE
+466,CTCP Xây dựng DIC Holdings,DC4,HOSE
+467,CTCP Xây dựng Phục Hưng Holdings,PHC,HOSE
+468,CTCP Xây dựng số 5,SC5,HOSE
+469,CTCP Xây lắp Thừa Thiên Huế,HUB,HOSE
+470,CTCP chế biến gỗ Đức Thành,GDT,HOSE
+471,CTCP xi măng VICEM Hải Vân,HVX,HOSE
+472,CTCP Ánh Dương Việt Nam,VNS,HOSE
+473,CTCP Điện Gia Lai,GEG,HOSE
+474,CTCP Điện Lực Dầu Khí Nhơn Trạch 2,NT2,HOSE
+475,CTCP Điện lực Khánh Hòa,KHP,HOSE
+476,CTCP Đá Núi Nhỏ,NNC,HOSE
+477,CTCP Đại Thiên Lộc,DTL,HOSE
+478,CTCP Đại lý Giao nhận Vận tải Xếp dỡ Tân Cảng,TCL,HOSE
+479,CTCP Đạt Phương,DPG,HOSE
+480,CTCP Đầu Tư Phát Triển Thương Mại Viễn Đông,VID,HOSE
+481,CTCP Đầu tư - Kinh doanh Nhà,ITC,HOSE
+482,CTCP Đầu tư BKG Việt Nam,BKG,HOSE
+483,CTCP Đầu tư Du lịch và Phát triển thủy sản,DAT,HOSE
+484,CTCP Đầu tư Dịch vụ Hoàng Huy,HHS,HOSE
+485,CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy,TCH,HOSE
+486,CTCP Đầu tư Hải Phát,HPX,HOSE
+487,CTCP Đầu tư LDG,LDG,HOSE
+488,CTCP Đầu tư Nhãn Hiệu Việt,ABR,HOSE
+489,CTCP Đầu tư Năm Bảy Bảy,NBB,HOSE
+490,CTCP Đầu tư Phát triển Công nghiệp - Thương Mại Củ Chi,CCI,HOSE
+491,CTCP Đầu tư Phát triển Công nghiệp và Vận tải (TRACODI),TCD,HOSE
+492,CTCP Đầu tư Sài Gòn VRG,SIP,HOSE
+493,CTCP Đầu tư Sản xuất và thương mại HCD,HCD,HOSE
+494,CTCP Đầu tư Thương mại Bất động sản An Dương Thảo Điền,HAR,HOSE
+495,CTCP Đầu tư Thương mại Xuất nhập khẩu Việt Phát,VPG,HOSE
+496,CTCP Đầu tư Văn Phú - Invest,VPI,HOSE
+497,CTCP Đầu tư hạ tầng kỹ thuật TPHCM,CII,HOSE
+498,CTCP Đầu tư iCapital,PTC,HOSE
+499,CTCP Đầu tư năng lượng Trường Thịnh,TTE,HOSE
+500,CTCP Đầu tư phát triển hạ tầng IDICO,HTI,HOSE
+501,CTCP Đầu tư phát triển nhà và đô thị IDICO,UIC,HOSE
+502,CTCP Đầu tư thương mại SMC,SMC,HOSE
+503,CTCP Đầu tư thế giới di động,MWG,HOSE
+504,CTCP Đầu tư và Kinh doanh Nhà Khang Điền,KDH,HOSE
+505,CTCP Đầu tư và Phát triển Cảng Đình Vũ,DVP,HOSE
+506,CTCP Đầu tư và Phát triển Y tế Việt Nhật,JVC,HOSE
+507,CTCP Đầu tư và Phát triển Đa quốc gia I.D.I,IDI,HOSE
+508,CTCP Đầu tư và Phát triển đô thị Long Giang,LGL,HOSE
+509,CTCP Đầu tư và Sản xuất Petro Miền Trung,PMG,HOSE
+510,CTCP Đầu tư và Thương mại Vũ Đăng,SVD,HOSE
+511,CTCP Đầu tư và Xây dựng Cấp thoát nước,VSI,HOSE
+512,CTCP Đầu tư và Xây dựng HUD1,HU1,HOSE
+513,CTCP Đầu tư và Xây dựng Tiền Giang,THG,HOSE
+514,CTCP Đầu tư và công nghệ HVC,HVH,HOSE
+515,CTCP Đầu tư và phát triển đô thị dầu khí Cửu Long,CCL,HOSE
+516,CTCP Đầu tư xây dựng và Phát triển Trường Thành,TTA,HOSE
+517,CTCP Đầu tư xây dựng và phát triển đô thị Thăng Long,TLD,HOSE
+518,CTCP Đệ Tam,DTA,HOSE
+519,CTCP địa ốc First Real,FIR,HOSE
+520,CTY CỔ PHẦN KHOÁNG SẢN VÀ VẬT LIỆU XÂY DỰNG LÂM ĐỒNG,LBM,HOSE
+521,CÔNG TY CP LOGISTICS VINALINK,VNL,HOSE
+522,CÔNG TY CỔ PHẦN ĐẦU TƯ PHÁT TRIỂN CƯỜNG THUẬN IDICO,CTI,HOSE
+523,CÔNG TY CỔ PHẦN BIBICA,BBC,HOSE
+524,CÔNG TY CỔ PHẦN DỊCH VỤ NÔNG NGHIỆP BÌNH THUẬN,ABS,HOSE
+525,CÔNG TY CỔ PHẦN GIỐNG CÂY TRỒNG MIỀN NAM,SSC,HOSE
+526,CÔNG TY CỔ PHẦN HALCOM VIỆT NAM,HID,HOSE
+527,CÔNG TY CỔ PHẦN KỸ NGHỆ ĐÔ THÀNH,DTT,HOSE
+528,CÔNG TY CỔ PHẦN KỸ THUẬT VÀ Ô TÔ TRƯỜNG LONG,HTL,HOSE
+529,CÔNG TY CỔ PHẦN LOGISTICS VICEM,HTV,HOSE
+530,CÔNG TY CỔ PHẦN MINH HƯNG QUẢNG TRỊ,GMH,HOSE
+531,CÔNG TY CỔ PHẦN MIỀN ĐÔNG,MDG,HOSE
+532,CÔNG TY CỔ PHẦN NAM VIỆT,NAV,HOSE
+533,CÔNG TY CỔ PHẦN SẢN XUẤT KINH DOANH XUẤT NHẬP KHẨU BÌNH THẠNH,GIL,HOSE
+534,CÔNG TY CỔ PHẦN SỮA VIỆT NAM,VNM,HOSE
+535,CÔNG TY CỔ PHẦN TCO HOLDINGS,TCO,HOSE
+536,CÔNG TY CỔ PHẦN THÀNH THÀNH CÔNG - BIÊN HÒA,SBT,HOSE
+537,CÔNG TY CỔ PHẦN THÉP VICASA - VNSTEEL,VCA,HOSE
+538,CÔNG TY CỔ PHẦN THỦY ĐIỆN HỦA NA,HNA,HOSE
+539,CÔNG TY CỔ PHẦN THỰC PHẨM SAO TA,FMC,HOSE
+540,CÔNG TY CỔ PHẦN TẬP ĐOÀN PC1,PC1,HOSE
+541,CÔNG TY CỔ PHẦN VIETTRONICS TÂN BÌNH,VTB,HOSE
+542,CÔNG TY CỔ PHẦN VINPEARL,VPL,HOSE
+543,CÔNG TY CỔ PHẦN Ô TÔ TMT,TMT,HOSE
+544,CÔNG TY CỔ PHẦN ĐIỆN LỰC GELEX,GEE,HOSE
+545,CÔNG TY CỔ PHẦN ĐẦU TƯ HẠ TẦNG GIAO THÔNG ĐÈO CẢ,HHV,HOSE
+546,CÔNG TY CỔ PHẦN ĐẦU TƯ TÀI SẢN KOJI,KPF,HOSE
+547,CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ XÂY DỰNG 3-2,C32,HOSE
+548,CÔNG TY CỔ PHẦN ĐỊA ỐC SÀI GÒN THƯƠNG TÍN,SCR,HOSE
+549,Công Ty CP Khoáng sản và Xây dựng Bình Dương,KSB,HOSE
+550,Công Ty Cổ Phần Bất động sản và Đầu tư VRC,VRC,HOSE
+551,Công Ty Cổ Phần Cao su Bến Thành,BRC,HOSE
+552,Công Ty Cổ Phần Dược Phẩm OPC,OPC,HOSE
+553,Công Ty Cổ Phần Rạng Đông Holding,RDP,HOSE
+554,Công Ty Cổ Phần S.P.M.,SPM,HOSE
+555,Công Ty Cổ Phần Transimex,TMS,HOSE
+556,Công Ty Cổ Phần Tập Đoàn 911,NO1,HOSE
+557,Công Ty Cổ Phần Đại Lý Vận Tải SAFI,SFI,HOSE
+558,Công Ty Cổ phần Công nghiệp Cao su Miền Nam,CSM,HOSE
+559,Công ty CP Camimex Group,CMX,HOSE
+560,Công ty CP Dược phẩm Imexpharm,IMP,HOSE
+561,Công ty CP Giống bò sữa Mộc Châu,MCM,HOSE
+562,Công ty CP Nafoods Group,NAF,HOSE
+563,Công ty CP Phát triển Đô thị Công nghiệp Số 2,D2D,HOSE
+564,Công ty CP Pin Ắc quy Miền Nam,PAC,HOSE
+565,Công ty CP SAM Holdings,SAM,HOSE
+566,Công ty CP Đầu tư Cầu đường CII,LGC,HOSE
+567,Công ty CP Đầu tư Nam Long,NLG,HOSE
+568,Công ty Cổ Phần Bóng đèn Phích nước Rạng Đông,RAL,HOSE
+569,Công ty Cổ Phần Bóng đèn Điện Quang,DQC,HOSE
+570,Công ty Cổ Phần Chương Dương,CDC,HOSE
+571,Công ty Cổ phần Bao Bì Biên Hòa,SVI,HOSE
+572,Công ty Cổ phần Bất động sản Thế Kỷ,CRE,HOSE
+573,Công ty Cổ phần Cao su Sao vàng,SRC,HOSE
+574,Công ty Cổ phần Cao su Thống Nhất,TNC,HOSE
+575,Công ty Cổ phần Cao su Đồng Phú,DPR,HOSE
+576,Công ty Cổ phần Cảng Cát Lái,CLL,HOSE
+577,Công ty Cổ phần Damsan,ADS,HOSE
+578,Công ty Cổ phần Du lịch Thành Thành Công,VNG,HOSE
+579,Công ty Cổ phần FPT,FPT,HOSE
+580,Công ty Cổ phần Lizen,LCG,HOSE
+581,Công ty Cổ phần Nhựa Hà Nội,NHH,HOSE
+582,Công ty Cổ phần Nông nghiệp BAF Việt Nam,BAF,HOSE
+583,Công ty Cổ phần Phân bón Dầu khí Cà Mau,DCM,HOSE
+584,Công ty Cổ phần Quốc tế Sơn Hà,SHI,HOSE
+585,Công ty Cổ phần ROX Key Holdings,TN1,HOSE
+586,Công ty Cổ phần SJ Group,SJS,HOSE
+587,Công ty Cổ phần Thủy điện Miền Nam,SHP,HOSE
+588,Công ty Cổ phần Traphaco,TRA,HOSE
+589,Công ty Cổ phần Tư vấn Xây dựng Điện 2,TV2,HOSE
+590,Công ty Cổ phần Tập Đoàn ST8,ST8,HOSE
+591,Công ty Cổ phần Tập đoàn ASG,ASG,HOSE
+592,Công ty Cổ phần Tập đoàn F.I.T,FIT,HOSE
+593,Công ty Cổ phần Tập đoàn GELEX,GEX,HOSE
+594,Công ty Cổ phần Tập đoàn HAPACO,HAP,HOSE
+595,Công ty Cổ phần Tập đoàn TNT,TNT,HOSE
+596,Công ty Cổ phần Tập đoàn Thành Nam,TNI,HOSE
+597,Công ty Cổ phần Tập đoàn Tư vấn Đầu tư Xây dựng Kiên Giang,CKG,HOSE
+598,Công ty Cổ phần Tập đoàn kỹ nghệ gỗ Trường Thành,TTF,HOSE
+599,Công ty Cổ phần Tập đoàn Đại Dương,OGC,HOSE
+600,Công ty Cổ phần Tập đoàn Đất Xanh,DXG,HOSE
+601,Công ty Cổ phần VINHOMES,VHM,HOSE
+602,Công ty Cổ phần Vận tải Sản phẩm khí Quốc tế,GSP,HOSE
+603,Công ty Cổ phần công nghệ - viễn thông ELCOM,ELC,HOSE
+604,Công ty Cổ phần Đông Hải Bến Tre,DHC,HOSE
+605,Công ty Cổ phần Đầu tư và Xây dựng Bình Dương ACC,ACC,HOSE
+606,Công ty Tài chính cổ phần Điện lực,EVF,HOSE
+607,Công ty cổ phần Chế biến Nông sản Hồng Hà Sơn La,HSL,HOSE
+608,Công ty cổ phần Create Capital Việt Nam,CRC,HOSE
+609,Công ty cổ phần Cát Lợi,CLC,HOSE
+610,Công ty cổ phần Cảng Quy Nhơn,QNP,HOSE
+611,Công ty cổ phần Dược phẩm Cửu Long,DCL,HOSE
+612,Công ty cổ phần FECON,FCN,HOSE
+613,Công ty cổ phần HHP GLOBAL,HHP,HOSE
+614,Công ty cổ phần Hóa An,DHA,HOSE
+615,Công ty cổ phần Hóa chất cơ bản miền Nam,CSV,HOSE
+616,Công ty cổ phần Lilama 10,L10,HOSE
+617,Công ty cổ phần Sản xuất và Đầu tư Hoàng Gia,RYG,HOSE
+618,Công ty cổ phần TEST,CTES,HOSE
+619,Công ty cổ phần TM-XNK Thiên Nam,TNA,HOSE
+620,Công ty cổ phần Thủy điện Miền Trung,CHP,HOSE
+621,Công ty cổ phần Tập đoàn Everland,EVG,HOSE
+622,Công ty cổ phần Tập đoàn giống cây trồng Việt Nam,NSC,HOSE
+623,Công ty cổ phần Viễn thông - Tin học Bưu điện,ICT,HOSE
+624,Công ty cổ phần Y Dược phẩm Vimedimex,VMD,HOSE
+625,Công ty cổ phần cao su Phước Hòa,PHR,HOSE
+626,Công ty cổ phần nước - môi trường bình dương,BWE,HOSE
+627,Công ty cổ phần thương mại & khai thác khoáng sản Dương Hiếu,DHM,HOSE
+628,Công ty cổ phần Đầu tư và Phát triển Bất động sản An Gia,AGG,HOSE
+629,Ngân hàng TMCP Bưu điện Liên Việt,LPB,HOSE
+630,Ngân hàng TMCP Công thương Việt Nam,CTG,HOSE
+631,Ngân hàng TMCP Cổ phần Á Châu,ACB,HOSE
+632,Ngân hàng TMCP Hàng Hải Việt Nam,MSB,HOSE
+633,Ngân hàng TMCP Kỹ thương Việt Nam,TCB,HOSE
+634,Ngân hàng TMCP Nam Á,NAB,HOSE
+635,Ngân hàng TMCP Ngoại thương Việt Nam,VCB,HOSE
+636,Ngân hàng TMCP Phát triển Tp. Hồ Chí Minh (HDBank),HDB,HOSE
+637,Ngân hàng TMCP Phương Đông,OCB,HOSE
+638,Ngân hàng TMCP Quân đội,MBB,HOSE
+639,Ngân hàng TMCP Quốc Tế Việt Nam,VIB,HOSE
+640,Ngân hàng TMCP Sài Gòn - Hà Nội,SHB,HOSE
+641,Ngân hàng TMCP Sài Gòn Thương Tín,STB,HOSE
+642,Ngân hàng TMCP Tiên Phong,TPB,HOSE
+643,Ngân hàng TMCP Việt Nam Thịnh Vượng,VPB,HOSE
+644,Ngân hàng TMCP Đông Nam Á,SSB,HOSE
+645,Ngân hàng TMCP Đầu tư và Phát triển Việt nam,BID,HOSE
+646,Ngân hàng Thương mại Cổ phần Xuất Nhập khẩu Việt Nam,EIB,HOSE
+647,Tập đoàn Bảo Việt,BVH,HOSE
+648,Tập đoàn Công nghiệp Cao su Việt Nam - CTCP,GVR,HOSE
+649,Tập đoàn Vingroup - CTCP,VIC,HOSE
+650,Tập đoàn Xăng dầu Việt Nam,PLX,HOSE
+651,Tổng CTCP Bia - Rượu - Nước giải khát Hà Nội,BHN,HOSE
+652,Tổng CTCP Bia - Rượu - nước giải khát Sài Gòn,SAB,HOSE
+653,Tổng CTCP Bảo Minh,BMI,HOSE
+654,Tổng CTCP Bảo hiểm Ngân hàng Đầu tư và Phát triển Việt Nam,BIC,HOSE
+655,Tổng CTCP Bảo hiểm Quân đội,MIG,HOSE
+656,Tổng CTCP Công trình Viettel,CTR,HOSE
+657,Tổng CTCP Dệt may Hòa Thọ,HTG,HOSE
+658,Tổng CTCP Phân bón và Hóa chất Dầu khí,DPM,HOSE
+659,Tổng CTCP Xuất nhập khẩu và Xây dựng Việt Nam (Vinaconex),VCG,HOSE
+660,Tổng CTCP Xây Dựng Điện Việt Nam,VNE,HOSE
+661,Tổng CTCP Đầu tư phát triển xây dựng,DIG,HOSE
+662,Tổng Công Ty Cổ phần Bảo hiểm Petrolimex,PGI,HOSE
+663,Tổng Công ty Cổ phần Bưu chính Viettel,VTP,HOSE
+664,Tổng Công ty Gas Petrolimex - CTCP,PGC,HOSE
+665,Tổng Công ty Phát triển Đô thị Kinh Bắc - CTCP,KBC,HOSE
+666,Tổng Công ty Phát điện 3 - Công ty cổ phần,PGV,HOSE
+667,Tổng Công ty cổ phần Vận tải dầu khí,PVT,HOSE
+668,Tổng Công ty Đầu tư Phát triển Nhà và Đô thị Nam Hà Nội,NHA,HOSE
+669,Tổng công ty CP Dịch vụ Tổng Hợp Dầu Khí,PET,HOSE
+670,Tổng công ty Hàng không Việt Nam - CTCP,HVN,HOSE
+671,Tổng công ty Khí Việt Nam - CTCP,GAS,HOSE
+672,Tổng công ty Viglacera - CTCP,VGC,HOSE
+673,Tổng công ty Việt Thắng - CTCP,TVT,HOSE
+674,Tổng công ty Điện lực Dầu khí Việt Nam-CTCP,POW,HOSE
+675,Tổng công ty đầu tư và phát triển công nghiệp - CTCP,BCM,HOSE

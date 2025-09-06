@@ -1,0 +1,7 @@
+/output/*
+/downloads/*
+/downloads_*
+/data/old-archive/*
+/data/temp/*
+/env/*
+__pycache__/*

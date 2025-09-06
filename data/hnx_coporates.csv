@@ -1,0 +1,297 @@
+﻿STT,Tên đầy đủ,Mã chứng khoán,Sàn niêm yết
+1,Tổng CT Công nghiệp mỏ Việt Bắc TKV-CTCP,MVB,HNX
+2,CTCP Ngân Sơn,NST,HNX
+3,CTCP Xuất nhập khẩu Than - Vinacomin,CLM,HNX
+4,CÔNG TY CỔ PHẦN KINH DOANH THAN MIỀN BẮC- VINACOMIN,TMB,HNX
+5,CTCP Pin Hà Nội,PHN,HNX
+6,Tổng công ty Lâm nghiệp Việt Nam - CTCP,VIF,HNX
+7,Tổng công ty khoáng sản TKV - CTCP,KSV,HNX
+8,CTCP Đầu tư CMC,CMC,HNX
+9,Tổng công ty Thăng Long-CTCP,TTL,HNX
+10,Công ty cổ phần Tư Vấn Sông Đà,SDC,HNX
+11,CTCP Xây dựng Số 1,VC1,HNX
+12,CTCP Xây dựng và Đầu tư Visicons,VC6,HNX
+13,Công ty Cổ phần Tập đoàn BGI,VC7,HNX
+14,CTCP Đầu tư và Xây dựng Vina2,VC2,HNX
+15,Công ty Cổ phần Năng lượng và Môi trường VICEM (tên cũ CTCP Vicem Vật tư vận tải xi măng),VTV,HNX
+16,CTCP LICOGI 13,LIG,HNX
+17,CTCP Lắp máy thí nghiệm cơ điện,LCD,HNX
+18,CTCP Xây dựng Sông Hồng,ICG,HNX
+19,CTCP Tập đoàn Vinacontrol,VNC,HNX
+20,CTCP xuất nhập khẩu Hàng không,ARM,HNX
+21,CTCP Vải sợi May mặc Miền Bắc,TET,HNX
+22,Công ty Cổ phần Dược trung ương Mediplantex,MED,HNX
+23,CTCP X20,X20,HNX
+24,Tổng CTCP Dịch vụ Kỹ thuật Dầu khí Việt Nam,PVS,HNX
+25,Tổng công ty Hoá chất và dịch vụ Dầu khí - CTCP,PVC,HNX
+26,Công ty cổ phần PVI,PVI,HNX
+27,CTCP Truyền Thông số 1,ONE,HNX
+28,CÔNG TY CỔ PHẦN ALPHANAM E&C,AME,HNX
+29,CTCP Thương mại và Dịch vụ Tiến Thành,TTH,HNX
+30,CTCP Cokyvina,CKV,HNX
+31,CTCP Thiết bị Bưu điện,POT,HNX
+32,CTCP Tập đoàn Đầu tư IPA,IPA,HNX
+33,Công ty cổ phần Tập đoàn tập đoàn đầu tư ATS,ATS,HNX
+34,CTCP Sông Đà 9,SD9,HNX
+35,Công ty cổ phần Sông Đà 5,SD5,HNX
+36,CTCP Thương mại và Vận tải Petrolimex Hà Nội,PJC,HNX
+37,CÔNG TY CỔ PHẦN XÂY DỰNG SỐ 9 – VC9,VC9,HNX
+38,CTCP Tập Đoàn Đầu Tư Thăng Long,TIG,HNX
+39,Công ty cổ phần Tập đoàn C.E.O,CEO,HNX
+40,Công ty cổ phần Tập đoàn Nam Mê Kông,VC3,HNX
+41,Công ty Cổ phần Vimeco,VMC,HNX
+42,CTCP Giao nhận Vận tải Ngoại thương,VNT,HNX
+43,CTCP SIMCO Sông Đà,SDA,HNX
+44,Công ty cổ phần SCI,S99,HNX
+45,CTCP Tin học Viễn thông Petrolimex,PIA,HNX
+46,CTCP Đầu tư và Xây dựng BDC Việt Nam,MCO,HNX
+47,Công ty CP Bánh kẹo Hải Hà,HHC,HNX
+48,CTCP Xây dựng số 12,V12,HNX
+49,Tổng công ty Hóa dầu Petrolimex - CTCP,PLC,HNX
+50,CTCP Sara Việt Nam,SRA,HNX
+51,CTCP Tập đoàn COTANA,CSC,HNX
+52,CTCP Sách Giáo dục tại TP. Hà Nội,EBS,HNX
+53,CTCP Bao bì và In nông nghiệp,INN,HNX
+54,CTCP Sách Đại học - Dạy nghề,HEV,HNX
+55,CTCP Tập đoàn Vexilla Việt Nam,SVN,HNX
+56,CTCP Phát triển Năng Lượng Sơn Hà,SHE,HNX
+57,CTCP Đầu tư và xây lắp Constrexim Số 8,CX8,HNX
+58,CTCP CNC Capital Việt Nam,KSQ,HNX
+59,CTCP Đầu tư Châu Á - Thái Bình Dương,API,HNX
+60,CTCP Hãng Sơn Đông Á,HDA,HNX
+61,CTCP Thương mại Bia Hà Nội,HAT,HNX
+62,Công ty Cổ phần Tập đoàn ECI,ECI,HNX
+63,Công ty CP Đầu tư IDJ Việt Nam,IDJ,HNX
+64,CTCP Đầu tư xây dựng và phát triển đô thị sông Đà,SDU,HNX
+65,Công ty Cổ phần Đầu tư và Phát triển giáo dục Hà Nội,EID,HNX
+66,CTCP Nhân lực và thương mại Vinaconex,VCM,HNX
+67,CTCP Đầu tư tổng hợp Hà Nội,SHN,HNX
+68,CTCP Đầu tư PV2,PV2,HNX
+69,CTCP Tập đoàn CMH Việt Nam,CMS,HNX
+70,CTCP Kinh doanh LPG Việt Nam,PVG,HNX
+71,CTCP Đầu tư và Phát triển Bất động sản HUDLAND,HLD,HNX
+72,CTCP Đầu tư phát triển gas đô thị,PCG,HNX
+73,CTCP Mĩ Thuật và Truyền Thông,ADC,HNX
+74,CTCP Tập đoàn MBG,MBG,HNX
+75,CTCP Tư vấn Đầu tư PP Enterprise,PPE,HNX
+76,Công ty Cổ phần Đầu tư và Phát triển Công nghệ Văn Lang,VLA,HNX
+77,CTCP Dịch vụ Kỹ thuật Điện lực Dầu khí Việt Nam,PPS,HNX
+78,CTCP Phân bón và Hóa chất Dầu khí Miền Bắc,PMB,HNX
+79,Công ty CP Đầu tư MST,MST,HNX
+80,Công ty cổ phần HTC Holding,CET,HNX
+81,Tổng công ty Điện lực TKV - CTCP,DTK,HNX
+82,Công ty cổ phần Nhựa Picomat,PCH,HNX
+83,CTCP Đầu tư và Phát triển doanh nghiệp Việt Nam,FID,HNX
+84,CTCP Dược liệu Việt Nam,DVM,HNX
+85,Công ty Cổ phần Thaiholdings,THD,HNX
+86,Tổng công ty cổ phần tái bảo hiểm Hà Nội (Tổng công ty cổ phần tái bảo hiểm PVI),PRE,HNX
+87,CTCP G-AUTOMOBILE,GMA,HNX
+88,CTCP Đầu tư Sản xuất Bảo Ngọc,BNA,HNX
+89,CTCP Tập đoàn Quản lý Tài sản Trí Việt,TVC,HNX
+90,Công ty cổ phần Tập đoàn Giáo dục Trí Việt,CAR,HNX
+91,Công ty cổ phần Tập đoàn Sunshine (Công ty Cổ phần Tập đoàn Real Tech,KSF,HNX
+92,CTCP Dược liệu và thực phẩm Việt Nam,VHE,HNX
+93,CTCP Tập đoàn Xây dựng SCG,SCG,HNX
+94,CTCP Điện nước lắp máy Hải Phòng,DNC,HNX
+95,CTCP Nhựa Thiếu niên Tiền Phong,NTP,HNX
+96,CTCP Ắc quy Tia Sáng,TSB,HNX
+97,CTCP Đồ hộp Hạ Long,CAN,HNX
+98,CTCP Dịch vụ vận tải và thương mại,TJC,HNX
+99,Công ty Cổ phần Tập đoàn Thành Thái,KKC,HNX
+100,CTCP Vận tải và Dịch vụ Petrolimex Hải Phòng,PTS,HNX
+101,CTCP Cảng Đoạn Xá,DXP,HNX
+102,Công ty cổ phần Tập đoàn Macstar,MAC,HNX
+103,CTCP Dược phẩm trung ương 3,DP3,HNX
+104,CTCP Thương mại Dịch vụ Vận tải xi măng Hải Phòng,HCT,HNX
+105,CÔNG TY CỔ PHẦN ĐIỆN CƠ HẢI PHÒNG,DHP,HNX
+106,CTCP Phát triển Hàng hải,VMS,HNX
+107,CTCP Vicem Bao bì Hải Phòng,BXH,HNX
+108,CTCP PETRO TIMES,PPT,HNX
+109,CTCP Đầu tư dịch vụ và phát triển xanh,GIC,HNX
+110,CTCP Đại lý hàng hải Việt Nam,VSA,HNX
+111,CTCP Địa ốc Chợ Lớn,RCL,HNX
+112,CTCP Dược phẩm Dược liệu Pharmedic,PMC,HNX
+113,Công Ty Cổ Phần Địa Ốc 11,D11,HNX
+114,CTCP Bảo vệ thực vật Sài Gòn,SPC,HNX
+115,Công ty Cổ phần Dệt lưới Sài Gòn,SFN,HNX
+116,CTCP Khách sạn Sài Gòn,SGH,HNX
+117,CTCP Bến xe miền Tây,WCS,HNX
+118,CTCP Sách và Thiết bị trường học TPHCM,STC,HNX
+119,CTCP Đầu tư và Phát triển Sao Mai (tên cũ CTCP Viễn Liên),UNI,HNX
+120,CTCP Văn hóa Tân Bình,ALT,HNX
+121,CTCP Dược phẩm Phong Phú,PPP,HNX
+122,CTCP TM XNK Thủ Đức,TMC,HNX
+123,CTCP Kỹ Thuật Điện Toàn Cầu,GLT,HNX
+124,CTCP Tư vấn xây dựng điện 3,TV3,HNX
+125,CTCP Cơ khí Xăng dầu,PMS,HNX
+126,CTCP Viễn Thông VTC,VTC,HNX
+127,Công Ty Cổ Phần Nông Nghiệp Hùng Hậu,SJ1,HNX
+128,CTCP Vận tải và dịch vụ Petrolimex Sài Gòn,PSC,HNX
+129,Tổng công ty IDICO - CTCP,IDC,HNX
+130,CTCP Cảng Rau quả,VGP,HNX
+131,CTCP Thiết kế Xây dựng Thương mại Phúc Thịnh,PTD,HNX
+132,CTCP Thương mại Hóc Môn,HTC,HNX
+133,CÔNG TY CP VINAFREIGHT,VNF,HNX
+134,CTCP Hải Minh,HMH,HNX
+135,CTCP XÂY LẮP III PETROLIMEX,PEN,HNX
+136,CTCP KASATI,KST,HNX
+137,CTCP Sách Giáo Dục Tp.Hồ Chí Minh,SGD,HNX
+138,CTCP Trang,TFC,HNX
+139,CÔNG TY CỔ PHẦN PGT HOLDINGS,PGT,HNX
+140,CTCP Tân Phú Việt Nam,TPP,HNX
+141,CTCP Lương thực thực phẩm Safoco,SAF,HNX
+142,CÔNG TY CỔ PHẦN CẤP NƯỚC NHÀ BÈ,NBW,HNX
+143,Công ty Cổ phần Cấp nước Bến Thành,BTW,HNX
+144,CTCP Cấp Nước Gia Định,GDW,HNX
+145,CTCP Tư vấn đầu tư IDICO,INC,HNX
+146,CTCP Đầu tư và Phát triển giáo dục Phương Nam,SED,HNX
+147,CTCP Vận tải Khí và Hóa chất Việt Nam,PCT,HNX
+148,CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ ĐẦU TƯ VI NA TA BA,VTJ,HNX
+149,CTCP Kinh doanh Khí Miền Nam,PGS,HNX
+150,CTCP Dịch vụ Bến Thành,BSC,HNX
+151,CTCP Dịch vụ phân phối tổng hợp dầu khí,PSD,HNX
+152,Công ty cổ phần Phân bón và Hóa chất Dầu khí Đông Nam Bộ,PSE,HNX
+153,Công ty Cổ phần Transimex Logistics,TOT,HNX
+154,CTCP Sách và thiết bị giáo dục Miền Nam,SMN,HNX
+155,CTCP Đầu Tư Công Nghiệp Xuất Nhập Khẩu Đông Dương,DDG,HNX
+156,CTCP Sản xuất và Thương mại nhựa Việt Thành,VTZ,HNX
+157,CÔNG TY CỔ PHẦN TẬP ĐOÀN DANH KHÔI,NRC,HNX
+158,Công ty Cổ phần Xây lắp Thành An 96,TA9,HNX
+159,CTCP Đầu tư phát triển nhà Đà Nẵng,NDN,HNX
+160,CTCP Kim khí miền Trung,KMT,HNX
+161,CTCP Cảng Đà Nẵng,CDN,HNX
+162,CTCP Dịch vụ Hàng không Sân bay Đà Nẵng,MAS,HNX
+163,CTCP Container miền Trung,VSM,HNX
+164,Công ty cổ phần Logistics PortserCo,PRC,HNX
+165,CTCP xây dựng điện VNECO1,VE1,HNX
+166,CTCP Sách giáo dục tại TP Đà Nẵng,DAE,HNX
+167,CTCP Sách và thiết bị trường học Đà Nẵng,BED,HNX
+168,CTCP chế tạo kết cấu thép VNECO.SSM,SSM,HNX
+169,Công ty Cổ phần Cơ điện miền Trung,CJC,HNX
+170,CTCP Đầu tư Điện Lực 3,PIC,HNX
+171,CTCP Xây lắp Phát triển nhà Đà Nẵng,NDX,HNX
+172,CTCP Tập đoàn Đầu tư Din Capital,PDB,HNX
+173,CTCP Vinaconex 21,V21,HNX
+174,Công ty cổ phần Sông Đà 11,SJE,HNX
+175,CTCP Dược phẩm Hà Tây,DHT,HNX
+176,CTCP Công nghiệp thương mại Sông Đà,STP,HNX
+177,CTCP que hàn điện Việt Đức,QHD,HNX
+178,CTCP VICOSTONE,VCS,HNX
+179,Công ty CP SCI E&C,SCI,HNX
+180,CTCP Đầu tư Sao Thăng Long,DST,HNX
+181,CTCP Tasco,HUT,HNX
+182,CTCP Vicem Bao bì Bút Sơn,BBS,HNX
+183,CTCP Bọc ống dầu khí Việt Nam,PVB,HNX
+184,CTCP Xi măng Vicem Bút Sơn,BTS,HNX
+185,CTCP Đầu tư Phát triển Thành Đạt,DTD,HNX
+186,Công ty Cổ phần đầu tư DNA,KSD,HNX
+187,Công ty Cổ phần Tập đoàn GCL,KDM,HNX
+188,CTCP GKM HOLDINGS,GKM,HNX
+189,CTCP Đầu tư và Xây dựng số 18 (LICOGI 18),L18,HNX
+190,Công ty Cổ phần Xây dựng 1369,C69,HNX
+191,CTCP Bia Hà Nội - Hải Dương,HAD,HNX
+192,Công ty cổ phần Chế tạo Bơm Hải Dương,CTB,HNX
+193,CTCP One Capital Hospitality,OCH,HNX
+194,CÔNG TY CỔ PHẦN AAV GROUP,AAV,HNX
+195,CTCP Tập đoàn Thiên Quang,ITQ,HNX
+196,CTCP Test GSĐC,,HNX
+197,CTCP Xi măng Thái Bình,TBX,HNX
+198,CTCP Thương mại và Dịch vụ LVA,LBE,HNX
+199,CTCP Xây lắp cơ khí và lương thực thực phẩm,MCF,HNX
+200,CTCP Dược phẩm Tipharco,DTG,HNX
+201,CTCP Dược thú y Cai Lậy,MKV,HNX
+202,CTCP Thực phẩm Bích Chi,BCF,HNX
+203,CTCP XNK Sa Giang,SGC,HNX
+204,CTCP Cảng An Giang,CAG,HNX
+205,Ngân hàng TMCP Quốc Dân,NVB,HNX
+206,CTCP Kiên Hùng,KHS,HNX
+207,Công ty CP Sadico Cần Thơ,SDG,HNX
+208,Công ty Cổ phần Đầu tư và Xây dựng 40,L40,HNX
+209,CTCP Thuốc sát trùng Cần Thơ,CPC,HNX
+210,CTCP Phân bón và Hóa chất dầu khí Tây Nam Bộ,PSW,HNX
+211,CTCP Bao bì Dầu khí Việt Nam,PBP,HNX
+212,Công ty Cổ phần Viglacera Tiên Sơn,VIT,HNX
+213,CTCP Tập đoàn Nagakawa,NAG,HNX
+214,CTCP Phát triển Hạ Tầng Vĩnh Phúc,IDV,HNX
+215,CTCP Thép Mê Lin,MEL,HNX
+216,CTCP Ống thép Việt Đức VGPIPE,VGS,HNX
+217,CTCP Phụ gia nhựa,PGN,HNX
+218,CTCP LICOGI 14,L14,HNX
+219,CTCP Hóa chất Việt Trì,HVT,HNX
+220,CTCP Supe Phốt phát và Hóa chất Lâm Thao,LAS,HNX
+221,CTCP Tập đoàn Nhôm Sông Hồng Shalumi,NSH,HNX
+222,CTCP Phân lân Ninh Bình,NFC,HNX
+223,Công ty Cổ phần Nhiệt điện Ninh Bình,NBP,HNX
+224,CTCP Xi măng Bỉm Sơn,BCC,HNX
+225,CTCP Vicem Bao bì Bỉm Sơn,BPC,HNX
+226,CTCP Thanh Hoa Sông Đà,THS,HNX
+227,CTCP Bia Thanh Hóa,THB,HNX
+228,Công ty cổ phần Spiral Galaxy,SPI,HNX
+229,Tổng CTCP Tái bảo hiểm quốc gia Việt Nam,VNR,HNX
+230,CTCP Cảng Nghệ Tĩnh,NAP,HNX
+231,Ngân hàng TMCP Bắc Á,BAB,HNX
+232,CTCP Xi măng Vicem Hoàng Mai,HOM,HNX
+233,CTCP Nhựa bao bì Vinh,VBC,HNX
+234,CTCP Xây dựng điện VNECO4,VE4,HNX
+235,CTCP Xây dựng điện Vneco 3,VE3,HNX
+236,Công ty cổ phần Khoáng sản Á Châu,AMC,HNX
+237,Công ty cổ phần Đá Hoàng Mai,HMR,HNX
+238,CTCP Hòa Bình Takara,CTP,HNX
+239,CTCP Đầu tư và phát triển giáo dục Đà Nẵng,DAD,HNX
+240,CTCP Vicem Thạch cao xi măng,TXM,HNX
+241,CTCP Sách và thiết bị Bình Thuận,BST,HNX
+242,CTCP Gạch ngói gốm xây dựng Mỹ Xuân,GMX,HNX
+243,CTCP Đầu tư phát triển xây dựng (DIC) số 2,DC2,HNX
+244,CTCP Bao bì Đạm Phú Mỹ,PMP,HNX
+245,CTCP Công nghiệp Tung Kuang,TKU,HNX
+246,CTCP Sơn Đồng Nai,SDN,HNX
+247,Công ty cổ phần Bột giặt NET,NET,HNX
+248,CÔNG TY CỔ PHẦN DNP HOLDING,DNP,HNX
+249,CTCP Gạch Men Thanh Thanh,TTC,HNX
+250,CTCP Thống Nhất,BAX,HNX
+251,Công ty Cổ phần Dây cáp điện Việt Thái,VTH,HNX
+252,Công ty Cổ phần SAMETEL,SMT,HNX
+253,CTCP Sonadezi Long Bình,SZB,HNX
+254,CTCP Gạch ngói Nhị Hiệp,NHC,HNX
+255,CTCP Gạch Ngói Cao Cấp,MCC,HNX
+256,CTCP Sản xuất kinh doanh Dược và Trang thiết bị y tế Việt Mỹ,AMV,HNX
+257,CÔNG TY CỔ PHẦN DU LỊCH - THƯƠNG MẠI TÂY NINH,TTT,HNX
+258,CTCP Kỹ nghệ khoáng sản Quảng Nam,MIC,HNX
+259,Công ty cổ phần Bê tông Hòa Cầm - Intimex,HCC,HNX
+260,CTCP Vinaconex 25,VCC,HNX
+261,CTCP Công trình giao thông Vận tải Quảng Nam,QTC,HNX
+262,CTCP Đầu tư Phát triển Xây dựng - Hội An,DIH,HNX
+263,CTCP Phân Bón và Hóa Chất Dầu Khí Miền Trung,PCE,HNX
+264,Tổng CTCP Bảo Hiểm Bưu Điện,PTI,HNX
+265,CTCP Cảng Cam Ranh,CCR,HNX
+266,CTCP Tư vấn xây dựng Điện 4,TV4,HNX
+267,CTCP Đầu tư và Phát triển Điện Miền Trung,SEB,HNX
+268,CÔNG TY CỔ PHẦN DỊCH VỤ SÂN BAY QUỐC TẾ CAM RANH,CIA,HNX
+269,Công ty Cổ phần Thủy điện Nước Trong,NTH,HNX
+270,CTCP Xăng dầu dầu khí Phú Yên,PPY,HNX
+271,CTCP Đầu tư và Thương mại TNG,TNG,HNX
+272,CTCP Đầu tư và Phát triển TDT,TDT,HNX
+273,CTCP Khoáng sản Bắc Kạn,BKC,HNX
+274,CTCP Cơ khí và Khoáng sản Hà Giang,HGM,HNX
+275,CTCP Thủy điện Nậm Mu,HJS,HNX
+276,Công ty cổ phần lâm nông sản thực phẩm Yên Bái,CAP,HNX
+277,Công ty cổ phần Đầu tư QP Xanh,HKT,HNX
+278,CTCP Mía đường Sơn La,SLS,HNX
+279,CTCP Than Cao Sơn - TKV,CST,HNX
+280,CTCP Viglacera Hạ Long,VHL,HNX
+281,CTCP Than Mông Dương - Vinacomin,MDC,HNX
+282,CTCP Than Hà Tu - Vinacomin,THT,HNX
+283,CTCP Sách và thiết bị trường học Quảng Ninh,QST,HNX
+284,CTCP Than Hà Lầm - Vinacomin,HLC,HNX
+285,Công ty cổ phần Than Núi Béo – Vinacomin,NBC,HNX
+286,CTCP Than Vàng Danh - Vinacomin,TVD,HNX
+287,Công ty Cổ phần DS3,DS3,HNX
+288,CTCP Viglacera Đông Triều,DTC,HNX
+289,CTCP Chế tạo máy - Vinacomin,CTT,HNX
+290,Công Ty Cổ Phần Dược Lâm Đồng (Ladophar),LDP,HNX
+291,CTCP Đầu tư và Xây dựng Thủy lợi Lâm Đồng,LHC,HNX
+292,Công ty cổ phần Thực phẩm Lâm Đồng,VDL,HNX
+293,Công ty cổ phần Sông Đà 505,S55,HNX
+294,Công ty Cổ phần Tập Đoàn Alpha Seven,DL1,HNX
+295,CTCP Xây dựng điện VNECO 8,VE8,HNX
+296,Công ty cổ phần Đường Kon Tum,KTS,HNX

@@ -1,0 +1,188 @@
+STT,sec_code,name,stock_exchange
+1,BTW,CTCP Cấp Nước Bến Thành,HNX
+2,GDW,CTCP Cấp Nước Gia Định,HNX
+3,NBW,CTCP Cấp Nước Nhà Bè,HNX
+4,DNP,CTCP DNP Holding,HNX
+5,PGS,CTCP Kinh Doanh Khí Miền Nam,HNX
+6,PVG,CTCP Kinh Doanh LPG Việt Nam,HNX
+7,NBP,CTCP Nhiệt Điện Ninh Bình,HNX
+8,SD9,CTCP Sông Đà 9,HNX
+9,NTH,CTCP Thủy Điện Nước Trong,HNX
+10,HJS,CTCP Thủy Điện Nậm Mu,HNX
+11,DL1,CTCP Tập Đoàn Alpha Seven,HNX
+12,DNC,CTCP Điện Nước Lắp Máy Hải Phòng,HNX
+13,DDG,CTCP Đầu Tư Công Nghiệp Xuất Nhập Khẩu Đông Dương,HNX
+14,SEB,CTCP Đầu Tư Và Phát Triển Điện Miền Trung,HNX
+15,PIC,CTCP Đầu Tư Điện Lực 3,HNX
+16,SHS,Công ty Cổ phần Chứng Khoán Sài Gòn Hà Nội,HNX
+17,BVS,Công ty Cổ phần Chứng khoán Bảo Việt,HNX
+18,APS,Công ty Cổ phần Chứng khoán Châu Á – Thái Bình Dương,HNX
+19,HBS,Công ty Cổ phần Chứng khoán Hòa Bình,HNX
+20,VFS,Công ty Cổ phần Chứng khoán Nhất Việt,HNX
+21,WSS,Công ty Cổ phần Chứng khoán Phố Wall,HNX
+22,VIG,Công ty Cổ phần Chứng khoán Đầu tư Tài chính Việt Nam,HNX
+23,PSI,Công ty cổ phần Chứng khoán Dầu khí,HNX
+24,EVS,Công ty cổ phần Chứng khoán EVS,HNX
+25,IVS,Công ty cổ phần Chứng khoán Guotai Junan (Việt Nam),HNX
+26,MBS,Công ty cổ phần Chứng khoán MB,HNX
+27,HBB,Ngân hàng Thương mại Cổ phần Nhà Hà Nội,HNX
+28,BAB,Ngân hàng Thương mại cổ phần Bắc Á,HNX
+29,NVB,Ngân hàng Thương mại cổ phần Quốc Dân,HNX
+30,DTK,Tổng Công Ty Điện Lực TKV - CTCP,HNX
+31,CNG,CTCP CNG Việt Nam,HOSE
+32,REE,CTCP Cơ Điện Lạnh,HOSE
+33,CLW,CTCP Cấp Nước Chợ Lớn,HOSE
+34,TDW,CTCP Cấp Nước Thủ Đức,HOSE
+35,KOS,CTCP Kosy,HOSE
+36,BTP,CTCP Nhiệt Điện Bà Rịa,HOSE
+37,PPC,CTCP Nhiệt Điện Phả Lại,HOSE
+38,BWE,CTCP Nước - Môi Trường Bình Dương,HOSE
+39,TDM,CTCP Nước Thủ Dầu Một,HOSE
+40,VPD,CTCP Phát Triển Điện Lực Việt Nam,HOSE
+41,PGD,CTCP Phân Phối Khí Thấp Áp Dầu Khí Việt Nam,HOSE
+42,SBA,CTCP Sông Ba,HOSE
+43,SMA,CTCP Thiết Bị Phụ Tùng Sài Gòn,HOSE
+44,DRL,CTCP Thủy Điện - Điện Lực 3,HOSE
+45,SJD,CTCP Thủy Điện Cần Đơn,HOSE
+46,HNA,CTCP Thủy Điện Hủa Na,HOSE
+47,SHP,CTCP Thủy Điện Miền Nam,HOSE
+48,CHP,CTCP Thủy Điện Miền Trung,HOSE
+49,S4A,CTCP Thủy Điện Sê San 4A,HOSE
+50,TBC,CTCP Thủy Điện Thác Bà,HOSE
+51,TMP,CTCP Thủy Điện Thác Mơ,HOSE
+52,VSH,CTCP Thủy Điện Vĩnh Sơn - Sông Hinh,HOSE
+53,HDG,CTCP Tập Đoàn Hà Đô,HOSE
+54,GEG,CTCP Điện Gia Lai,HOSE
+55,NT2,CTCP Điện Lực Dầu Khí Nhơn Trạch 2,HOSE
+56,KHP,CTCP Điện Lực Khánh Hòa,HOSE
+57,PTC,CTCP Đầu Tư Icapital,HOSE
+58,TTE,CTCP Đầu Tư Năng Lượng Trường Thịnh,HOSE
+59,UIC,CTCP Đầu Tư Phát Triển Nhà Và Đô Thị  IDICO,HOSE
+60,TDG,CTCP Đầu Tư Tdg Global,HOSE
+61,PMG,CTCP Đầu Tư Và Sản Xuất Petro Miền Trung,HOSE
+62,TTA,CTCP Đầu Tư Xây Dựng Và Phát Triển Trường Thành,HOSE
+63,PGC,Tổng Công Ty Gas Petrolimex - Ctcp,HOSE
+64,GAS,Tổng Công Ty Khí Việt Nam - CTCP,HOSE
+65,PGV,Tổng Công Ty Phát Điện 3 - CTCP,HOSE
+66,POW,Tổng Công Ty Điện Lực Dầu Khí Việt Nam,HOSE
+67,APG,Công ty Cổ phần Chứng khoán APG,HSX
+68,AGR,Công ty Cổ phần Chứng khoán Agribank,HSX
+69,DSE,Công ty Cổ phần Chứng khoán DNSE,HSX
+70,DSC,Công ty Cổ phần Chứng khoán DSC,HSX
+71,FTS,Công ty Cổ phần Chứng khoán FPT,HSX
+72,VDS,Công ty Cổ phần Chứng khoán Rồng Việt,HSX
+73,TVS,Công ty Cổ phần Chứng khoán Thiên Việt,HSX
+74,HCM,Công ty Cổ phần Chứng khoán Thành phố Hồ Chí Minh,HSX
+75,ORS,Công ty Cổ phần Chứng khoán Tiên Phong,HSX
+76,VCI,Công ty Cổ phần Chứng khoán VIETCAP,HSX
+77,EVF,Công ty Tài chính cổ phần Điện lực,HSX
+78,BSI,Công ty cổ phần Chứng khoán BIDV,HSX
+79,CTS,Công ty cổ phần Chứng khoán Ngân hàng Công thương,HSX
+80,SSI,Công ty cổ phần Chứng khoán SSI,HSX
+81,TVB,Công ty cổ phần Chứng khoán T-Cap,HSX
+82,TCI,Công ty cổ phần Chứng khoán Thành Công,HSX
+83,VIX,Công ty cổ phần Chứng khoán VIX,HSX
+84,VND,Công ty cổ phần Chứng khoán VNDIRECT,HSX
+85,TCB,Ngân hàng TMCP Kỹ Thương Việt Nam (Techcombank),HSX
+86,HDB,Ngân hàng TMCP Phát triển T.P Hồ Chí Minh,HSX
+87,CTG,Ngân hàng Thương mại Cổ phần Công thương Việt Nam,HSX
+88,STB,Ngân hàng Thương mại Cổ phần Sài Gòn Thương Tín,HSX
+89,VPB,Ngân hàng Thương mại Cổ phần Việt Nam Thịnh Vượng,HSX
+90,EIB,Ngân hàng Thương mại Cổ phần Xuất nhập khẩu Việt Nam,HSX
+91,ACB,Ngân hàng Thương mại Cổ phần Á Châu,HSX
+92,MSB,Ngân hàng Thương mại cổ phần Hàng hải Việt Nam,HSX
+93,LPB,Ngân hàng Thương mại cổ phần Lộc Phát Việt Nam,HSX
+94,NAB,Ngân hàng Thương mại cổ phần Nam Á,HSX
+95,VCB,Ngân hàng Thương mại cổ phần Ngoại thương Việt Nam,HSX
+96,OCB,Ngân hàng Thương mại cổ phần Phương Đông,HSX
+97,MBB,Ngân hàng Thương mại cổ phần Quân đội,HSX
+98,VIB,Ngân hàng Thương mại cổ phần Quốc tế Việt Nam,HSX
+99,SHB,Ngân hàng Thương mại cổ phần Sài Gòn - Hà Nội,HSX
+100,TPB,Ngân hàng Thương mại cổ phần Tiên Phong,HSX
+101,VAB,Ngân hàng Thương mại cổ phần Việt Á,HSX
+102,SSB,Ngân hàng Thương mại cổ phần Đông Nam Á,HSX
+103,BID,Ngân hàng Thương mại cổ phần Đầu tư và Phát triển Việt Nam,HSX
+104,PVF,Tổng Công ty Tài chính Cổ phần Dầu khí Việt Nam,HSX
+105,FLCS,'',OTC
+106,ROSE,CTCP Chứng khoán Globalmind Capital,OTC
+107,HVS,CTCP Chứng khoán HVS Việt Nam,OTC
+108,HRS,CTCP Chứng khoán Việt Nam Gateway,OTC
+109,TCBS,Công ty CTCP chứng khoán Kỹ Thương,OTC
+110,MSG,Công ty Chứng khoán JB Việt Nam,OTC
+111,DDS,Công ty Cổ phần Chứng khoán AIS,OTC
+112,APSC,Công ty Cổ phần Chứng khoán ALPHA,OTC
+113,ASC,Công ty Cổ phần Chứng khoán ASC,OTC
+114,ATSC,Công ty Cổ phần Chứng khoán An Thành,OTC
+115,BETA,Công ty Cổ phần Chứng khoán BETA,OTC
+116,RUBSE,Công ty Cổ phần Chứng khoán CAO SU,OTC
+117,ISC,Công ty Cổ phần Chứng khoán Công Nghiệp Việt Nam,OTC
+118,ECC,Công ty Cổ phần Chứng khoán EUROCAPITAL,OTC
+119,HSSC,Công ty Cổ phần Chứng khoán Hà Nội,OTC
+120,HBSC,Công ty Cổ phần Chứng khoán Hưng Thịnh,OTC
+121,KVS,Công ty Cổ phần Chứng khoán KENANGA Việt Nam,OTC
+122,KIS,Công ty Cổ phần Chứng khoán KIS Việt Nam,OTC
+123,PGSC,Công ty Cổ phần Chứng khoán PHÚ GIA,OTC
+124,NSI,Công ty Cổ phần Chứng khoán Quốc gia,OTC
+125,IRS,Công ty Cổ phần Chứng khoán Quốc tế Hoàng Gia,OTC
+126,SBBS,Công ty Cổ phần Chứng khoán SAIGONBANK BERJAYA,OTC
+127,SHBS,Công ty Cổ phần Chứng khoán SHB,OTC
+128,SJCS,Công ty Cổ phần Chứng khoán SJC,OTC
+129,GLS,Công ty Cổ phần Chứng khoán Sen Vàng,OTC
+130,STSC,Công ty Cổ phần Chứng khoán SÀI GÒN TOURIST,OTC
+131,TSS,Công ty Cổ phần Chứng khoán TRƯỜNG SƠN,OTC
+132,CASC,Công ty Cổ phần Chứng khoán Thủ Đô,OTC
+133,VINAGLOBAL,Công ty Cổ phần Chứng khoán Toàn Cầu,OTC
+134,TVSI,Công ty Cổ phần Chứng khoán Tân Việt,OTC
+135,VNSC,Công ty Cổ phần Chứng khoán VINA,OTC
+136,VITS,Công ty Cổ phần Chứng khoán VIT,OTC
+137,VPSS,Công ty Cổ phần Chứng khoán VPS,OTC
+138,VDSE,Công ty Cổ phần Chứng khoán Viễn Đông,OTC
+139,VSCS,Công ty Cổ phần Chứng khoán Việt,OTC
+140,VSEC,Công ty Cổ phần Chứng khoán Việt Nam,OTC
+141,VQSC,Công ty Cổ phần Chứng khoán Việt Quốc,OTC
+142,VTSC,Công ty Cổ phần Chứng khoán Việt Thành,OTC
+143,VTSS,Công ty Cổ phần Chứng khoán Việt Tín,OTC
+144,OSC,Công ty Cổ phần Chứng khoán ĐẠI TÂY DƯƠNG,OTC
+145,OCS,Công ty Cổ phần Chứng khoán Đại Dương,OTC
+146,DVSC,Công ty Cổ phần Chứng khoán Đại Việt,OTC
+147,ACBS,Công ty TNHH Chứng khoán ACB,OTC
+148,MIRAEASSET,Công ty TNHH Chứng khoán Mirae Asset (Việt Nam),OTC
+149,WOORICBV,Công ty TNHH Chứng khoán NH Việt Nam,OTC
+150,VCBS,Công ty TNHH Chứng khoán Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam,OTC
+151,NASC,Công ty TNHH Chứng khoán Shinhan Việt Nam,OTC
+152,DASC,Công ty TNHH MTV Chứng khoán Ngân hàng Đông Á,OTC
+153,TCXM,Công ty Tài chính cổ phần Xi măng,OTC
+154,LVS,Công ty cổ phần Chứng khoán Liên Việt,OTC
+155,MBKE,Công ty cổ phần Chứng khoán MayBank Kim Eng,OTC
+156,NVS,Công ty cổ phần Chứng khoán NAVIBANK,OTC
+157,MHBS,Công ty cổ phần Chứng khoán Ngân hàng Phát triển Nhà đồng bằng Sông Cửu Long,OTC
+158,JSI,Công ty cổ phần Chứng khoán Nhật Bản,OTC
+159,COOPBANK,Ngân hàng Hợp tác xã Việt Nam,OTC
+160,AGRIBANK,Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam,OTC
+161,BAOVIETBANK,Ngân hàng TMCP Bảo Việt,OTC
+162,MEKONGBANK,Ngân hàng TMCP Phát triển Mê Kông,OTC
+163,MHB,Ngân hàng TMCP Phát triển nhà đồng bằng sông Cửu Long,OTC
+164,SOUTHERNBANK,Ngân hàng TMCP Phương Nam,OTC
+165,WESTERNBANK,Ngân hàng TMCP Phương Tây,OTC
+166,SCB,Ngân hàng Thương mại Cổ phần Sài Gòn,OTC
+167,GPBANK,Ngân hàng Thương mại TNHH MTV Dầu khí Toàn cầu,OTC
+168,CBBANK,Ngân hàng Thương mại TNHH MTV Ngoại thương Công nghệ số,OTC
+169,OCEANBANK,Ngân hàng Thương mại TNHH MTV Đại Dương,OTC
+170,DAF,Ngân hàng Thương mại cổ phần Đông Á,OTC
+171,PVCOMBANK,Ngân hàng Thương mại cổ phần Đại chúng Việt Nam,OTC
+172,DAIABANK,Ngân hàng Thương mại cổ phần Đại Á,OTC
+173,ABW,CTCP Chứng khoán An Bình,UpCom
+174,ART,Công ty Cổ phần Chứng khoán BOS,UpCom
+175,BMS,Công ty Cổ phần Chứng khoán Bảo Minh,UpCom
+176,PHS,Công ty Cổ phần Chứng khoán Phú Hưng,UpCom
+177,SBS,Công ty Cổ phần Chứng khoán SBS,UpCom
+178,SDF,Công ty Tài chính cổ phần Sông Đà,UpCom
+179,CSI,Công ty cổ phần Chứng khoán Kiến thiết Việt Nam,UpCom
+180,AAS,Công ty cổ phần Chứng khoán SmartInvest,UpCom
+181,VUA,Công ty cổ phần Chứng khoán Stanley Brothers,UpCom
+182,SGB,Ngân hàng TMCP Sài Gòn Công thương,UpCom
+183,PGB,Ngân hàng TMCP Thịnh vượng và Phát triển,UpCom
+184,ABB,Ngân hàng Thương mại cổ phần An Bình,UpCom
+185,BVB,Ngân hàng Thương mại cổ phần Bản Việt,UpCom
+186,KLB,Ngân hàng Thương mại cổ phần Kiên Long,UpCom
+187,VBB,Ngân hàng Thương mại cổ phần Việt Nam Thương Tín,UpCom
