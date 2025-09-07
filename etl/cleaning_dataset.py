@@ -11,6 +11,16 @@ def main(TAG: str):
     # Perform data cleaning and preprocessing here
     df.dropna(inplace=True)
     
+    # Change 'firm' column values from 'BSC' to 'PSI'
+    # if 'firm' in df.columns:
+    #     df['firm'] = df['firm'].replace('BSC', 'PSI')
+    #     logging.info("Replaced 'BSC' with 'PSI' in 'firm' column.")
+    
+    # Remove the "downloads/bvs\" and only keep file name in the file_name column
+    # if 'file_name' in df.columns:
+    #     df['file_name'] = df['file_name'].apply(lambda x: os.path.basename(x) if isinstance(x, str) else x)
+    #     logging.info("Cleaned 'file_name' column to keep only the file name.")
+
     # Get only first duplicate based on sec_code, clean_year, report_date, eps
     if {"clean_year", "sec_code", "report_date", "eps"}.issubset(df.columns):
         df = df.drop_duplicates(subset=["clean_year", "sec_code", "report_date", "eps"])
@@ -20,4 +30,4 @@ def main(TAG: str):
     logging.info("Data cleaning complete. Cleaned dataset saved.")
 
 if __name__ == "__main__":
-    main(TAG="agr")
+    main(TAG="mirraassetall")
