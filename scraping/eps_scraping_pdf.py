@@ -503,7 +503,12 @@ def extract_clean_eps_v5(pdf_path, report_date, valid_codes=None, blacklist_code
 
     return final_results
 
-def extract_clean_eps_v6(pdf_path, report_date, valid_codes=None, blacklist_codes=None, url=None, firm=None, already_detected_sc=None):
+def extract_clean_eps_v6(pdf_path, report_date, valid_codes=None, blacklist_codes=None, url=None, firm=None, already_detected_sc=None, pdf_pages="1-end"):
+    """
+    (parameter) pages: str
+    pages : str, optional (default: '1')
+    Comma-separated page numbers. Example: '1,3,4' or '1,4-end' or 'all'.
+    """
     if not report_date:
         return None
     _, _, rep_year = parse_vietnamese_date(report_date)
@@ -550,7 +555,17 @@ def extract_clean_eps_v6(pdf_path, report_date, valid_codes=None, blacklist_code
             matches = re.findall(r"(?<![A-Z])([A-Z]{3})(?![A-Z])", text)
             matches += re.findall(r"(?<![A-Z])([A-Z]{2}\d)(?![A-Z])", text)
 
-            blacklist = blacklist_codes or {"MBS", "PDF", "EPS", "KKN", "CP", "QTR", "BCT", "KCN", "HNX", "HSX", "HOSE", "VNI", "VN30", "UPCOM", "USD", "VND", "VIX", "VNINDEX", "FY2", "FY1"}
+            blacklist = blacklist_codes or {"MBS", "PDF", "EPS", 
+                                            "KKN", "CP", "QTR", 
+                                            "BCT", "KCN", "HNX", 
+                                            "HSX", "HOSE", "VNI", 
+                                            "VN30", "UPCOM", "USD", 
+                                            "VND", "VIX", "VNINDEX", 
+                                            "FY2", "FY1", "YTD", "MUA", "BÁN", "VNĐ", 
+                                            "NIM", "NPL", "IEA", "KHO", "BLĐ", "NII",
+                                            "PER", "ROE", "ROA", "P/B", "P/E", "PBR",
+                                            "CIR", "COV", "FDI"
+                                            }
             tickers = [m for m in matches if m not in blacklist]
 
             # Cross-check with valid_codes list if provided
@@ -564,7 +579,7 @@ def extract_clean_eps_v6(pdf_path, report_date, valid_codes=None, blacklist_code
                 logging.warning(f"No valid sec_code found in {pdf_path}")
                 return []  # skip EPS extraction if no ticker detected
 
-        tables = camelot.read_pdf(pdf_path, pages='1-end', flavor='stream')
+        tables = camelot.read_pdf(pdf_path, pages=pdf_pages, flavor='stream')
         results = []
 
         for table in tables:
@@ -616,6 +631,14 @@ def extract_clean_eps_v6(pdf_path, report_date, valid_codes=None, blacklist_code
                     clean_year = normalize_year(year)
                     if not verify_four_digit_year(clean_year):
                         logging.warning(f"Invalid year format for year '{year}' in row {idx}")
+                        continue
+                    
+                    if len(eps) < 3:
+                        logging.warning(f"EPS value too short for year '{year}' in row {idx}: '{eps}'")
+                        continue
+                    
+                    if eps == "" or eps is None:
+                        logging.warning(f"Empty EPS value for year '{year}' in row {idx}")
                         continue
                     
                     final_results.append({
@@ -721,6 +744,160 @@ def extract_clean_eps_w_sc_v6(pdf_path, report_date, sec_code, url=None, firm=No
                         "firm": firm,
                         "url": url
                     })
+        return final_results
+    except Exception as e:
+        logging.error(f"Failed sec_code detection in {pdf_path}: {e}")
+        return []
+    
+def extract_clean_eps_v6_mirra(pdf_path, report_date, valid_codes=None, blacklist_codes=None, url=None, firm=None, already_detected_sc=None, pdf_pages="1-end"):
+    """
+    (parameter) pages: str
+    pages : str, optional (default: '1')
+    Comma-separated page numbers. Example: '1,3,4' or '1,4-end' or 'all'.
+    """
+    if not report_date:
+        return None
+    _, _, rep_year = parse_vietnamese_date(report_date)
+    rep_year = int(rep_year)
+    year_patterns = [
+        r"\d{4}(?:E|F)", 
+        r"(?:Dec)[- ]?\d{2}",
+        r"31/12/\d{2,4}",
+        r"FY\d{2,4}[EF]?",
+        r"F\*\d{2,4}"
+    ]
+    year_patterns_v2 = [
+        r"\d{4}(?:E|F)?(?:\s*(?:cũ|mới|old|new))?",     # 2021, 2021E, 2021F, 2021 cũ, 2021 mới
+        r"(?:Dec)[- ]?\d{2}(?:\s*(?:cũ|mới|old|new))?", # Dec-21, Dec-21 mới
+        r"31/12/\d{2,4}(?:\s*(?:cũ|mới|old|new))?",     # 31/12/2021, 31/12/2021 cũ
+        r"FY\d{2,4}[EF]?(?:\s*(?:cũ|mới|old|new))?",    # FY22, FY2022F, FY22 mới
+        r"F\*?\d{2,4}(?:\s*(?:cũ|mới|old|new))?"        # F22, F*22, F2022 cũ
+    ]
+    
+    global_year_pattern = re.compile(
+        "|".join(year_patterns),
+        re.IGNORECASE
+        )
+    eps_patterns = [
+        r"^\s*EPS\b"
+    ]
+    global_eps_pattern = re.compile("|".join(eps_patterns), re.IGNORECASE)
+    final_results = []
+    
+    # --- Step 0: detect sec_code in the PDF ---
+    
+    sec_code = None
+    try:
+        if already_detected_sc:
+            sec_code = already_detected_sc
+        else:
+            with pdfplumber.open(pdf_path) as pdf:
+                pages_to_check = min(3, len(pdf.pages))
+                text = ""
+                for i in range(pages_to_check):
+                    text += pdf.pages[i].extract_text() or ""
+
+            # Only match exactly 3 uppercase letters, or with 2 uppercase letters with 1 number, standalone
+            matches = re.findall(r"(?<![A-Z])([A-Z]{3})(?![A-Z])", text)
+            matches += re.findall(r"(?<![A-Z])([A-Z]{2}\d)(?![A-Z])", text)
+
+            blacklist = blacklist_codes or {"MBS", "PDF", "EPS", 
+                                            "KKN", "CP", "QTR", 
+                                            "BCT", "KCN", "HNX", 
+                                            "HSX", "HOSE", "VNI", 
+                                            "VN30", "UPCOM", "USD", 
+                                            "VND", "VIX", "VNINDEX", 
+                                            "FY2", "FY1", "YTD", "MUA", "BÁN", "VNĐ", 
+                                            "NIM", "NPL", "IEA", "KHO", "BLĐ", "NII",
+                                            "PER", "ROE", "ROA", "P/B", "P/E", "PBR",
+                                            "CIR", "COV", "FDI"
+                                            }
+            tickers = [m for m in matches if m not in blacklist]
+
+            # Cross-check with valid_codes list if provided
+            if valid_codes:
+                tickers = [m for m in tickers if m in valid_codes]
+
+            if tickers:
+                sec_code = max(set(tickers), key=tickers.count)  # most frequent
+                logging.info(f"Detected sec_code '{sec_code}' in {pdf_path}")
+            else:
+                logging.warning(f"No valid sec_code found in {pdf_path}")
+                return []  # skip EPS extraction if no ticker detected
+
+        tables = camelot.read_pdf(pdf_path, pages=pdf_pages, flavor='stream')
+        results = []
+
+        for table in tables:
+            df = table.df
+            # logging.info(f"Extracted table {table} with \n{df}")
+            # Remove all columns with out EPS or year patterns
+            cols_to_keep = []
+            for col in df.columns:
+                if df[col].apply(lambda x: bool(global_eps_pattern.search(x)) or bool(global_year_pattern.search(x))).any():
+                    cols_to_keep.append(col)
+            if not cols_to_keep:
+                continue
+            df = df[cols_to_keep]
+            logging.info(f"After filtering, table has columns: {df.columns.tolist()}")
+            # Find EPS column and delete columns before it
+            eps_col = None
+            for col in df.columns:
+                if df[col].apply(lambda x: bool(global_eps_pattern.search(x))).any():
+                    eps_col = col
+                    break
+            if eps_col is None:
+                continue
+            df = df.loc[:, df.columns[df.columns.get_loc(eps_col):]]
+            logging.info(f"After EPS filtering, table has columns: {df.columns.tolist()}")
+            # Filtering row with EPS and year patterns
+            df = df[df.apply(lambda row: row.astype(str).str.contains(global_eps_pattern).any() or row.astype(str).str.contains(global_year_pattern).any(), axis=1)]
+            if df.empty:
+                logging.warning(f"No rows with EPS or year patterns found in table from {pdf_path}")
+                continue
+            # Reset index and columns
+            df.columns = df.iloc[0]
+            df = df[1:]
+            df = df.reset_index(drop=True)
+            logging.info(f"Filtered table:\n{df}")
+            # Expected format:
+            # 1 Chỉ số tài chính 31/12/2024 31/12/2025 31/12/2026 31/12/2027
+            # 0              EPS      3,679      3,993      4,726      5,493
+            header = df.columns.tolist()
+            for idx, row in df.iterrows():
+                logging.info(f"Processing row {idx}: {row.tolist()}")
+                # Check if EPS in the first column
+                if not any(re.search(r"\bEPS\b", str(c), re.IGNORECASE) for c in row):
+                    continue
+                # Extract EPS values
+                eps_values = row[1:].tolist()
+                for year, eps in zip(header[1:], eps_values):
+                    logging.info(f"Year: {year}, EPS: {eps}")
+                
+                    clean_year = normalize_year(year)
+                    if not verify_four_digit_year(clean_year):
+                        logging.warning(f"Invalid year format for year '{year}' in row {idx}")
+                        continue
+                    
+                    if len(eps) < 3:
+                        logging.warning(f"EPS value too short for year '{year}' in row {idx}: '{eps}'")
+                        continue
+                    
+                    if eps == "" or eps is None:
+                        logging.warning(f"Empty EPS value for year '{year}' in row {idx}")
+                        continue
+                    
+                    final_results.append({
+                        "year": year,
+                        "clean_year": clean_year,
+                        "eps": clean_number(eps),
+                        "is_forecast": clean_year and int(clean_year) >= rep_year,
+                        "report_date": report_date,
+                        "sec_code": sec_code,
+                        "firm": firm,
+                        "url": url + "  " # Space to avoid URL truncation in some DB viewers
+                    })
+                    return final_results
         return final_results
     except Exception as e:
         logging.error(f"Failed sec_code detection in {pdf_path}: {e}")
