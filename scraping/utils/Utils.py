@@ -164,3 +164,65 @@ def extract_report_date(text: str) -> str:
         except ValueError:
             return None
     return None
+
+def convert_vietnamese_charmonth_int(charmonth: str) -> int:
+    """Convert Vietnamese month name to integer month."""
+    month_map = {
+        "tháng 1": 1, "tháng 2": 2, "tháng 3": 3, "tháng 4": 4,
+        "tháng 5": 5, "tháng 6": 6, "tháng 7": 7, "tháng 8": 8,
+        "tháng 9": 9, "tháng 10": 10, "tháng 11": 11, "tháng 12": 12,
+        "tháng một": 1, "tháng hai": 2, "tháng ba": 3, "tháng tư": 4,
+        "tháng năm": 5, "tháng sáu": 6, "tháng bảy": 7, "tháng tám": 8,
+        "tháng chín": 9, "tháng mười": 10, "tháng mười một": 11, "tháng mười hai": 12,
+    }
+    charmonth = charmonth.strip().lower()
+    return month_map.get(charmonth, None)
+
+def extract_sec_code_from_title(title: str) -> str:
+    """
+    Extracts a stock code (3 uppercase letters) from a given title string.
+    Returns the stock code if found, else None.
+    """
+    matches = re.findall(r"(?<![A-Z])([A-Z]{3})(?![A-Z])", title)
+    matches += re.findall(r"(?<![A-Z])([A-Z]{2}\d)(?![1-9])", title)
+
+    blacklist_codes = {"MBS", "PDF", "EPS", 
+                        "KKN", "CP", "QTR", 
+                        "BCT", "KCN", "HNX", 
+                        "HSX", "HOSE", "VNI", 
+                        "VN30", "UPCOM", "USD", 
+                        "VND", "VIX", "VNINDEX", 
+                        "FY2", "FY1", "YTD", "MUA", "BÁN", "VNĐ", 
+                        "NIM", "NPL", "IEA", "KHO", "BLĐ", "NII",
+                        "PER", "ROE", "ROA", "P/B", "P/E", "PBR",
+                        "CIR", "COV"
+                        }
+    tickers = [m for m in matches if m not in blacklist_codes]
+
+    if tickers:
+        sec_code = max(set(tickers), key=tickers.count)  # most frequent
+        return sec_code
+    return None
+
+def validate_sec_code(sec_code: str) -> bool:
+    """
+    Validates if the given stock code is in the correct format (3 uppercase letters or 2 letters + 1 digit).
+    Remove dấu hỏi, dấu chấm, dấu phẩy, dấu gạch ngang, dấu gạch dưới, khoảng trắng.
+    Returns True if valid, else False.
+    """
+    sec_code = re.sub(r"[?.,\-_ ]", "", sec_code)   # remove unwanted characters
+    blacklist_codes = {"MBS", "PDF", "EPS", 
+                        "KKN", "CP", "QTR", 
+                        "BCT", "KCN", "HNX", 
+                        "HSX", "HOSE", "VNI", 
+                        "VN30", "UPCOM", "USD", 
+                        "VND", "VIX", "VNINDEX", 
+                        "FY2", "FY1", "YTD", "MUA", "BÁN", "VNĐ", 
+                        "NIM", "NPL", "IEA", "KHO", "BLĐ", "NII",
+                        "PER", "ROE", "ROA", "P/B", "P/E", "PBR",
+                        "CIR", "VIE", "COV"
+                        }
+    if re.match(r"^[A-Z]{3}$", sec_code) or re.match(r"^[A-Z]{2}\d$", sec_code):
+        if sec_code not in blacklist_codes:
+            return True
+    return False
