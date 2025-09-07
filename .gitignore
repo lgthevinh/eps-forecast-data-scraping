@@ -5,3 +5,7 @@
 /data/temp/*
 /env/*
 __pycache__/*
+
+# Ignore all pycache files
+*.pyc
+*.pyo
