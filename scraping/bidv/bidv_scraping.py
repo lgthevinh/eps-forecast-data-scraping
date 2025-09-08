@@ -8,8 +8,8 @@ import pandas as pd
 from scraping.eps_scraping_pdf import extract_clean_eps_v6
 from scraping.utils.Utils import parse_vietnamese_date
 
-BASE_URL = "https://www.bsc.com.vn/bao-cao-doanh-nghiep/?key=&fromdate=01%2F01%2F2019&todate=31%2F12%2F2023&post_page="
-DATE_RANGE = "&fromdate=01%2F01%2F2019&todate=31%2F12%2F2023"
+BASE_URL = "https://www.bsc.com.vn/bao-cao-doanh-nghiep/?post_page="
+# DATE_RANGE = "&fromdate=01%2F01%2F2019&todate=31%2F12%2F2023"
 PAGE_PARAM = "&post_page="
 
 def scraping_bsc(output_dir="output/eps_rep_bsc.csv", download_dir="downloads", sec_code_list=None):
@@ -18,7 +18,7 @@ def scraping_bsc(output_dir="output/eps_rep_bsc.csv", download_dir="downloads", 
         page = browser.new_page()
         
         for sec_code in sec_code_list:
-            url = BASE_URL + sec_code + DATE_RANGE
+            url = BASE_URL + sec_code
             page.goto(url)
             logging.info(f"Scraping reports for {sec_code}... at {url}")
             page.wait_for_load_state("networkidle")

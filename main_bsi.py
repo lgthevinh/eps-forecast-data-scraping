@@ -22,7 +22,7 @@ def main(TAG: str, size: int = None):
     # sec_code_list = pd.read_csv('data/merged_coporates_cleaned.csv')['sec_code'].dropna().unique().tolist()
     sec_code_list_test = ['VHM', 'VNM', 'IDC'] # Example stock codes for testing
 
-    scraping_bsc_all(output_dir=output_dir, max_pages=34, start_page=31)
+    scraping_bsc_all(output_dir=output_dir, max_pages=27, start_page=25)
 
 if __name__ == "__main__":
-    main("BSC")
+    main("BSC_23_toall")

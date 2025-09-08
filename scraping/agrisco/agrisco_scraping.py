@@ -22,7 +22,7 @@ def scraping_agr_all(download_dir="downloads", valid_codes=None, max_pages=20, s
         page.wait_for_load_state("networkidle")
         
         # Fill datetime into input with id=FillterDateRangePicker
-        page.fill("#FillterDateRangePicker", "01/01/2019 - 31/12/2023")
+        page.fill("#FillterDateRangePicker", "31/12/2023 - 08/09/2025")
         button = page.query_selector("div.investors-filter-field button")
         button.click()
         page.wait_for_load_state("domcontentloaded")

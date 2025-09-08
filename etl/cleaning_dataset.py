@@ -12,10 +12,10 @@ def main(TAG: str):
     df.dropna(inplace=True)
     
     # Change 'firm' column values from 'BSC' to 'PSI'
-    # if 'firm' in df.columns:
-    #     df['firm'] = df['firm'].replace('BSC', 'PSI')
-    #     logging.info("Replaced 'BSC' with 'PSI' in 'firm' column.")
-    
+    if 'firm' in df.columns:
+        df['firm'] = df['firm'].replace('BSC', 'KBVS_23_toall')
+        logging.info("Replaced 'BSC' with '*_23_toall' in 'firm' column.")
+
     # Remove the "downloads/bvs\" and only keep file name in the file_name column
     # if 'file_name' in df.columns:
     #     df['file_name'] = df['file_name'].apply(lambda x: os.path.basename(x) if isinstance(x, str) else x)
@@ -30,4 +30,4 @@ def main(TAG: str):
     logging.info("Data cleaning complete. Cleaned dataset saved.")
 
 if __name__ == "__main__":
-    main(TAG="mirraassetall")
+    main(TAG="kbvs_23_toall")

@@ -12,7 +12,7 @@ BASE_URL = "https://www.kbsec.com.vn/vi/bao-cao-cong-ty/p-24.htm"
 # DATE_RANGE = "&fromdate=01%2F01%2F2019&todate=31%2F12%2F2023"
 # PAGE_PARAM = "&post_page="
 
-def scraping_kbvs_all(download_dir="downloads", valid_codes=None, max_pages=20, start_page=1, output_dir="output/eps_rep_kbvs.csv", blacklist_code=None):
+def scraping_kbvs_all(download_dir="downloads", valid_codes=None, max_pages=20, start_page=1, output_dir="output/eps_rep_kbvs.csv", blacklist_code=None, firm="KBVS"):
     os.makedirs(download_dir, exist_ok=True)
     
     with sync_playwright() as p:
@@ -87,7 +87,7 @@ def scraping_kbvs_all(download_dir="downloads", valid_codes=None, max_pages=20, 
             
                 # Extract EPS
                 try:
-                    eps_results = extract_clean_eps_v6(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm="BSC", url=pdf_url, already_detected_sc=sec_code)
+                    eps_results = extract_clean_eps_v6(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm=firm, url=pdf_url, already_detected_sc=sec_code)
                     logging.info(f"Extracted {len(eps_results)} EPS entries from {local_path}")
                     logging.info(f"EPS Results: {eps_results}")
                     if not eps_results:
