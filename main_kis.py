@@ -26,4 +26,4 @@ def main(TAG: str, size: int = None):
     scraping_kis_all(output_dir=output_dir, max_pages=37, start_page=1, firm=TAG, download_dir=download_dir)
 
 if __name__ == "__main__":
-    main("KIS")
+    main("KIS_v7")

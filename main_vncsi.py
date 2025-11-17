@@ -1,7 +1,7 @@
 import logging
 import pandas as pd
 
-from scraping.bvs.bvs_scraping import scraping_bvs_all
+from scraping.vncsi.vncsi_scraping import scraping_vncsi_all
 
 def main(TAG: str, size: int = None):
     """
@@ -17,13 +17,13 @@ def main(TAG: str, size: int = None):
     )
     
     output_dir = f"output/eps_rep_{TAG.lower()}.csv"
-    download_dir = f"downloads/{TAG.lower()}"
+    download_dir = f"downloads_{TAG.lower()}"
     logging.info(f"Starting {TAG} scraping...")
     
     # sec_code_list = pd.read_csv('data/merged_coporates_cleaned.csv')['sec_code'].dropna().unique().tolist()
     sec_code_list_test = ['VHM', 'VNM', 'IDC'] # Example stock codes for testing
 
-    scraping_bvs_all(output_dir=output_dir, max_pages=56, start_page=1, firm=TAG, download_dir=download_dir)
+    scraping_vncsi_all(output_dir=output_dir, max_pages=12, start_page=1, firm=TAG, download_dir=download_dir)
 
 if __name__ == "__main__":
-    main("BVS_23_toall")
+    main("VNCSI")

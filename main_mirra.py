@@ -26,4 +26,4 @@ def main(TAG: str, size: int = None):
     scraping_mirra_all(output_dir=output_dir, max_pages=110, start_page=1, firm=TAG, download_dir=download_dir)
 
 if __name__ == "__main__":
-    main("MirraAsset")
+    main("MirraAssetV7")
