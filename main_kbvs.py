@@ -23,7 +23,7 @@ def main(TAG: str, size: int = None):
     # sec_code_list = pd.read_csv('data/merged_coporates_cleaned.csv')['sec_code'].dropna().unique().tolist()
     sec_code_list_test = ['VHM', 'VNM', 'IDC'] # Example stock codes for testing
 
-    scraping_kbvs_all(output_dir=output_dir, max_pages=90, start_page=30, download_dir=download_dir, pdf_pages="1", firm=TAG)
+    scraping_kbvs_all(output_dir=output_dir, max_pages=30, start_page=1, download_dir=download_dir, firm=TAG)
 
 if __name__ == "__main__":
-    main("KBVS")
+    main("KBVS_23_toall")

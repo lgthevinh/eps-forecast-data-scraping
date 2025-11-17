@@ -12,7 +12,7 @@ BASE_URL = "https://www.psi.vn/vi/trung-tam-phan-tich/bao-cao-phan-tich-doanh-ng
 # DATE_RANGE = "&fromdate=01%2F01%2F2019&todate=31%2F12%2F2023"
 # PAGE_PARAM = "&post_page="
 
-def scraping_psi_all(download_dir="downloads", valid_codes=None, max_pages=20, start_page=1, output_dir="output/eps_rep_psi.csv", blacklist_code=None):
+def scraping_psi_all(download_dir="downloads", valid_codes=None, max_pages=20, start_page=1, output_dir="output/eps_rep_psi.csv", blacklist_code=None, firm="PSI"):
     os.makedirs(download_dir, exist_ok=True)
     
     with sync_playwright() as p:
@@ -82,7 +82,7 @@ def scraping_psi_all(download_dir="downloads", valid_codes=None, max_pages=20, s
                 
                 # Extract EPS
                 try:
-                    eps_results = extract_clean_eps_v6(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm="BSC", url=pdf_url, already_detected_sc=sec_code)
+                    eps_results = extract_clean_eps_v6(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm=firm, url=pdf_url, already_detected_sc=sec_code)
                     logging.info(f"Extracted {len(eps_results)} EPS entries from {local_path}")
                     logging.info(f"EPS Results: {eps_results}")
                     if not eps_results:

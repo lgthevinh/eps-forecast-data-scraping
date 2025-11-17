@@ -18,12 +18,12 @@ def scraping_ssv_all(download_dir="downloads", valid_codes=None, max_pages=20, s
     os.makedirs(download_dir, exist_ok=True)
     
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         page.goto(BASE_URL, timeout=60000)
         page.wait_for_load_state("domcontentloaded")
 
-        time.sleep(20)  # wait for 20 seconds to ensure the page is fully loaded after date range input
+        # time.sleep(20)  # wait for 20 seconds to ensure the page is fully loaded after date range input
         # Click outside to close the date picker
                 
         for page_num in range(start_page, max_pages + 1):

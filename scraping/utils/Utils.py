@@ -27,8 +27,7 @@ def parse_vietnamese_date(date_string):
             
             # Validate the date
             try:
-                datetime(year, month, day)  # This will raise ValueError if invalid
-                return day, month, year
+                return int(day), int(month), int(year)
             except ValueError:
                 logging.warning(f"Invalid date values: {day}/{month}/{year}")
                 return None, None, None
@@ -44,8 +43,7 @@ def parse_vietnamese_date(date_string):
                 day = int(iso_match.group(3))
                 
                 try:
-                    datetime(year, month, day)
-                    return day, month, year
+                    return int(day), int(month), int(year)
                 except ValueError:
                     logging.warning(f"Invalid date values: {day}/{month}/{year}")
                     return None, None, None
@@ -81,24 +79,18 @@ year_patterns = [
         
 def normalize_year(raw):
     """
-    Convert strings like '2018F', '2017E', 'Dec-21', '31/12/2022', 'F*22', 'F*2022'
+    Convert strings like '2018F', '2017E', 'Dec-21', '31/12/2022', 'F*22', 'F*2022', 'FY22', 'FY2022E', '2022A'
     into a clean 4-digit year string.
     """
     if not raw:
         return None
     raw = raw.strip()
     
-    # Handle using year_patterns
-    for pattern in year_patterns:
-        if re.search(pattern, raw):
-            break
-    else:
-        return raw  # no pattern matched, return as is
-    
-    # Handle explicit 4-digit year + suffix (2018F, 2017E)
-    m = re.match(r"(\d{4})(?:[EF])?", raw)
+    # Handle 4-digit year with all suffixes
+    m = re.match(r"(\d{4})(?:[A-Z])?", raw, re.IGNORECASE)
     if m:
         return m.group(1)
+        
 
     # Handle DD/MM/YYYY or similar
     m = re.search(r"\d{4}", raw)

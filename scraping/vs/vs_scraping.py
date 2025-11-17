@@ -1,37 +1,35 @@
 import os
 import requests
 import logging
+import time
 from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 import pandas as pd
 
 from scraping.eps_scraping_pdf import extract_clean_eps_v6
-from scraping.utils.Utils import parse_vietnamese_date, extract_report_date
+from scraping.utils.Utils import parse_vietnamese_date, extract_report_date, convert_vietnamese_charmonth_int, validate_sec_code
 
-BASE_URL = "https://agriseco.com.vn/Report/ReportsInCategory/1/vi-VN"
-DATE_RANGE = "&fromdate=01%2F01%2F2019&todate=31%2F12%2F2023"
-PAGE_PARAM = "&post_page="
-        
-def scraping_agr_all(download_dir="downloads", valid_codes=None, max_pages=20, start_page=1, output_dir="output/eps_rep_agr.csv", blacklist_code=None, firm="AGR"):
+ROOT_URL = "https://finance.vietstock.vn"
+BASE_URL = "https://finance.vietstock.vn/bao-cao-phan-tich/phan-tich-doanh-nghiep"
+DATE_RANGE = ""
+PAGE_PARAM = ""
+
+def scraping_vs_all(download_dir="downloads", valid_codes=None, max_pages=20, start_page=1, output_dir="output/eps_rep_vs.csv", blacklist_code=None, firm="VS"):
     os.makedirs(download_dir, exist_ok=True)
     
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=False)
         page = browser.new_page()
         page.goto(BASE_URL, timeout=60000)
-        page.wait_for_load_state("networkidle")
-        
-        # Fill datetime into input with id=FillterDateRangePicker
-        page.fill("#FillterDateRangePicker", "31/12/2023 - 08/09/2025")
-        button = page.query_selector("div.investors-filter-field button")
-        button.click()
-        page.wait_for_load_state("domcontentloaded")
-                
-        for page_num in range(start_page, max_pages + 1):
-            page.wait_for_load_state("domcontentloaded")
-            logging.info(f"Loading page {page_num}")
 
-            report_items = page.query_selector_all("div.div-grid-obj")
+        time.sleep(15)  # wait for 10 seconds to ensure the page is fully loaded after date range input
+        # Click outside to close the date picker
+            
+        for page_num in range(start_page, max_pages + 1):
+            logging.info(f"Loading page {page_num}")
+            
+            content = page.query_selector("div#report-content")    
+            report_items = content.query_selector_all("div.col-xs-24")  # Updated selector for BVS
             if not report_items:
                 logging.info(f"No reports found on page {page_num}, stopping.")
                 continue
@@ -43,46 +41,59 @@ def scraping_agr_all(download_dir="downloads", valid_codes=None, max_pages=20, s
                 
                 # Detect sec_code
                 try:
-                    # head_card_tag = report_item.query_selector("div")
-                    sec_code_tag = None
-                    report_date_tag = report_item.query_selector("div.grid-obj-date")
-
+                    sec_code_tag = report_item.query_selector("a.title-link")  # Adjusted selector for VS
                     if sec_code_tag:
-                        sec_code = sec_code_tag.text_content().strip().upper()
+                        sec_code = sec_code_tag.text_content().strip()[:3] # Get first 3 characters as sec_code
                         is_sec_code_tagged = True
                     else:
                         logging.warning(f"Could not find sec_code for report {idx} on page {page_num}, fallback to sec code tickets.")
+                    
+                    report_date_tag = report_item.query_selector("small.pull-right > i")
+                    logging.info(report_date_tag)
 
                     if not report_date_tag:
                         logging.warning(f"Could not find report date for report {idx} on page {page_num}, skipping.")
                         continue
-                    
-                    report_date = extract_report_date(report_date_tag.text_content().strip()).replace("-", "/").replace("(", "").replace(")", "")
+
+                    report_date = report_date_tag.text_content().strip()
+                    # _, _, year = parse_vietnamese_date(report_date)
+                    # logging.info(f"Extracted date: {report_date} (year: {year})")
+                    # if year < 2019 or year > 2023:
+                    #     logging.info(f"Report date {report_date} is before 2019 for report {idx} on page {page_num}, skipping.")
+                    #     continue
                     logging.info(f"[Page {page_num} - Report {idx}] {sec_code} ({report_date})")
                     
                 except Exception as e:
                     logging.error(f"Error detecting sec_code or date for report {idx} on page {page_num}: {e}")
-                    continue
-
+                    continue               
+                    
                 # Get pdf link and download
                 local_path = None
+                pdf_url = None
                 try:
-                    pdf_link_tag = report_item.query_selector("div.tnt-d-flex.align-items-center.article-readmore > a[target='_blank']")
+                    pdf_link_tag = report_item.query_selector("a.txt-red")
+                    pdf_url = urljoin(BASE_URL, pdf_link_tag.get_attribute("href")) if pdf_link_tag else None
+                    logging.info(f"PDF URL: {pdf_url}")
                     if not pdf_link_tag:
                         logging.warning(f"No PDF link in report {idx} on page {page_num}, skipping.")
                         continue
+
                     logging.info(f"Found PDF link for report {idx} on page {page_num}")
-                    
-                    pdf_url = urljoin(BASE_URL, pdf_link_tag.get_attribute("href"))
-                    filename = os.path.basename(pdf_url)
+
+                    # Use Playwright download API
+                    with page.expect_download() as download_info:
+                        pdf_link_tag.click()   # triggers the download
+                    download = download_info.value
+
+                    # Playwright suggests the real filename (from server headers)
+                    filename = download.suggested_filename
                     local_path = os.path.join(download_dir, filename) + ".pdf"
-                    logging.info(f"Downloading PDF {pdf_url} -> {local_path}")
-                    response = requests.get(pdf_url)
-                    with open(local_path, "wb") as f:
-                        f.write(response.content)
+
+                    logging.info(f"Saving PDF -> {local_path}")
+                    download.save_as(local_path)
 
                 except Exception as e:
-                    logging.error(f"Error finding PDF link for report {idx} on page {page_num}: {e}")
+                    logging.error(f"Error downloading PDF for report {idx} on page {page_num}: {e}")
                     continue
             
                 # Extract EPS
@@ -108,8 +119,8 @@ def scraping_agr_all(download_dir="downloads", valid_codes=None, max_pages=20, s
                     logging.error(f"Error processing report {idx} on page {page_num}: {e}")
                     continue
                 
-            page.wait_for_load_state("domcontentloaded")
-            next_button = page.query_selector_all("div.last-page.pagging-item")[-1]
+            next_button = page.query_selector("li.next > a")
             next_button.click()
-                
+            time.sleep(1)  # wait for 1 second to ensure the next page is loaded
+
         browser.close()

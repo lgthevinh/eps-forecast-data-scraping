@@ -1,7 +1,7 @@
 import logging
 import pandas as pd
 
-from scraping.ssv.ssv_scraping import scraping_ssv_all
+from scraping.vcbs.vcbs_scraping import scraping_vcbs_all
 
 def main(TAG: str, size: int = None):
     """
@@ -17,13 +17,10 @@ def main(TAG: str, size: int = None):
     )
     
     output_dir = f"output/eps_rep_{TAG.lower()}.csv"
-    download_dir = "downloads_ssv"
+    download_dir = f"downloads_{TAG.lower()}"
     logging.info(f"Starting {TAG} scraping...")
     
-    # sec_code_list = pd.read_csv('data/merged_coporates_cleaned.csv')['sec_code'].dropna().unique().tolist()
-    sec_code_list_test = ['VHM', 'VNM', 'IDC'] # Example stock codes for testing
-
-    scraping_ssv_all(output_dir=output_dir, max_pages=13, start_page=1, firm=TAG, download_dir=download_dir)
+    scraping_vcbs_all(output_dir=output_dir, max_pages=81, start_page=24, firm=TAG, download_dir=download_dir)
 
 if __name__ == "__main__":
-    main("SSV_23_toall")
+    main("VCBS")
