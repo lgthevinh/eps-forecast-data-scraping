@@ -26,8 +26,21 @@ def main(TAG: str):
         df = df.drop_duplicates(subset=["clean_year", "sec_code", "report_date", "eps"])
         logging.info(f"After dropping duplicates, dataset has {df.shape[0]} rows.")
 
+    # Delete row if length of year is more than 8 or less than 4
+    if 'year' in df.columns:
+        df = df[df['year'].astype(str).str.len().between(4, 8)]
+    logging.info(f"After filtering by year length, dataset has {df.shape[0]} rows.")
+    
     df.to_csv(f'output/cleaned_eps_rep_{TAG}.csv', index=False)
+    logging.info("Data cleaning complete. Cleaned dataset saved.")
+    
+    # Remove duplicate based on url column
+    if 'url' in df.columns:
+        df = df.drop_duplicates(subset=['url'])
+        logging.info(f"After dropping duplicates based on 'url', dataset has {df.shape[0]} rows.")
+
+    df.to_csv(f'output/cleaned_eps_rep_{TAG}_removeduplicateurl.csv', index=False)
     logging.info("Data cleaning complete. Cleaned dataset saved.")
 
 if __name__ == "__main__":
-    main(TAG="kbvs_23_toall")
+    main(TAG="vcbs")

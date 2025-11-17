@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 import pandas as pd
 
-from scraping.eps_scraping_pdf import extract_clean_eps_v6_mirra
+from scraping.eps_scraping_pdf import extract_clean_eps_v7_mirra
 from scraping.utils.Utils import parse_vietnamese_date, extract_report_date, convert_vietnamese_charmonth_int, validate_sec_code
 
 ROOT_URL = "https://masvn.com"
@@ -56,9 +56,9 @@ def scraping_mirra_all(download_dir="downloads", valid_codes=None, max_pages=20,
 
                     report_date = report_date_tag.text_content().strip().replace(" Thg ", "/").replace(" ", "/")
                     _, _, year = parse_vietnamese_date(report_date)
-                    if year > 2023 or year < 2018:
-                        logging.warning(f"Report date '{report_date}' for report {idx} on page {page_num} is out of range, skipping.")
-                        continue
+                    # if year > 2023 or year < 2018:
+                    #     logging.warning(f"Report date '{report_date}' for report {idx} on page {page_num} is out of range, skipping.")
+                    #     continue
                     logging.info(f"[Page {page_num} - Report {idx}] {sec_code} ({report_date})")
                     
                 except Exception as e:
@@ -116,7 +116,7 @@ def scraping_mirra_all(download_dir="downloads", valid_codes=None, max_pages=20,
             
                 # # Extract EPS
                 try:
-                    eps_results = extract_clean_eps_v6_mirra(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm=firm, url=pdf_url, already_detected_sc=sec_code)
+                    eps_results = extract_clean_eps_v7_mirra(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm=firm, url=pdf_url, already_detected_sc=sec_code)
                     logging.info(f"Extracted {len(eps_results)} EPS entries from {local_path}")
                     logging.info(f"EPS Results: {eps_results}")
                     if not eps_results:

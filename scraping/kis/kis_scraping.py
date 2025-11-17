@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright
 import pandas as pd
 
-from scraping.eps_scraping_pdf import extract_clean_eps_v6
+from scraping.eps_scraping_pdf import extract_clean_eps_v7
 from scraping.utils.Utils import parse_vietnamese_date, extract_report_date, convert_vietnamese_charmonth_int, validate_sec_code
 
 ROOT_URL = "https://kisvn.vn"
@@ -150,7 +150,7 @@ def scraping_kis_all(download_dir="downloads", valid_codes=None, max_pages=20, s
                 
                 # Extract EPS
                 try:
-                    eps_results = extract_clean_eps_v6(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm=firm, url=pdf_url, already_detected_sc=sec_code)
+                    eps_results = extract_clean_eps_v7(local_path, report_date, valid_codes=valid_codes, blacklist_codes=blacklist_code, firm=firm, url=pdf_url, already_detected_sc=sec_code)
                     logging.info(f"Extracted {len(eps_results)} EPS entries from {local_path}")
                     logging.info(f"EPS Results: {eps_results}")
                     if not eps_results:
